@@ -1,0 +1,12 @@
+drop table if exists stock_prices;
+drop table if exists peer_groups;
+drop table if exists market_cap;
+drop table if exists financial_ratios;
+drop table if exists sectors;
+drop table if exists prosandcons;
+drop table if exists documents;
+drop table if exists analysis;
+drop table if exists cashflow;
+drop table if exists balancesheet;
+drop table if exists profitandloss;
+drop table if exists companies;
