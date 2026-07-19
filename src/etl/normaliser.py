@@ -65,6 +65,10 @@ def normalize_year(value):
             continue
 
     # FY format
+    fy = re.match(r"FY(\d{4})", value.upper())
+    if fy:
+        return f"{fy.group(1)}-03"
+
     fy = re.match(r"FY(\d{2})", value.upper())
     if fy:
         yr = int(fy.group(1))

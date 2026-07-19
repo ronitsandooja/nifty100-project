@@ -1,3 +1,4 @@
+import sqlite3
 import pandas as pd
 from pathlib import Path
 
@@ -19,6 +20,21 @@ core_files = {
     "prosandcons"
 }
 
+table_order = [
+    "companies",
+    "profitandloss",
+    "balancesheet",
+    "cashflow",
+    "analysis",
+    "documents",
+    "prosandcons",
+    "sectors",
+    "financial_ratios",
+    "market_cap",
+    "peer_groups",
+    "stock_prices"
+]
+
 load_stats = []
 
 
@@ -28,16 +44,26 @@ def get_header(dataset_name):
     return 0
 
 
-def load_all_datasets(base_path="data/raw"):
-    base = Path(base_path)
+def load_all_datasets(raw_path="data/raw", supporting_path="data/supporting"):
+    raw_base = Path(raw_path)
+    supporting_base = Path(supporting_path)
 
     datasets = {}
 
-    for file in base.glob("*.xlsx"):
+    companies_path = raw_base / "companies.xlsx"
+    datasets["companies"] = load_dataset(str(companies_path))
+    valid_ids = set(datasets["companies"]["id"].dropna())
+
+    files = list(raw_base.glob("*.xlsx")) + list(supporting_base.glob("*.xlsx"))
+
+    for file in files:
         name = file.stem.lower()
 
+        if name == "companies":
+            continue
+
         try:
-            df = load_dataset(str(file))
+            df = load_dataset(str(file), valid_ids)
             datasets[name] = df
         except Exception as e:
             print(f"error loading {name}: {e}")
@@ -67,7 +93,19 @@ def remove_duplicates(df):
     return df
 
 
-def process_df(df):
+def drop_bad_years(df):
+    if "year" in df.columns:
+        df = df[df["year"].notna()]
+    return df
+
+
+def drop_orphan_rows(df, valid_ids):
+    if valid_ids is not None and "company_id" in df.columns:
+        df = df[df["company_id"].isin(valid_ids)]
+    return df
+
+
+def process_df(df, valid_ids=None):
     df = clean_columns(df)
     df = remove_empty_rows(df)
     df = clean_text_columns(df)
@@ -76,12 +114,15 @@ def process_df(df):
     df = normalize_ticker_column(df, "id")
     df = normalize_year_column(df, "year")
 
+    df = drop_bad_years(df)
+    df = drop_orphan_rows(df, valid_ids)
+
     df = remove_duplicates(df)
 
     return df
 
 
-def load_dataset(file_path):
+def load_dataset(file_path, valid_ids=None):
     path = Path(file_path)
     dataset_name = path.stem.lower()
 
@@ -95,7 +136,7 @@ def load_dataset(file_path):
 
     rows_before = len(df)
 
-    df = process_df(df)
+    df = process_df(df, valid_ids)
 
     rows_after = len(df)
 
@@ -116,11 +157,34 @@ def save_load_stats():
     stats_df.to_csv("output/load_audit.csv", index=False)
 
 
+def build_database(datasets, db_path="db/nifty100.db"):
+    conn = sqlite3.connect(db_path)
+
+    with open("db/drop_tables.sql") as f:
+        conn.executescript(f.read())
+
+    with open("db/schema.sql") as f:
+        conn.executescript(f.read())
+
+    for name in table_order:
+        datasets[name].to_sql(name, conn, if_exists="append", index=False)
+
+    conn.execute("pragma foreign_keys = on")
+    fk_errors = conn.execute("pragma foreign_key_check").fetchall()
+
+    conn.commit()
+    conn.close()
+
+    return fk_errors
+
+
 def preview(df):
     print(df.head())
 
 
 if __name__ == "__main__":
-    df = load_dataset("data/raw/companies.xlsx")
-    preview(df)
+    datasets = load_all_datasets()
     save_load_stats()
+
+    fk_errors = build_database(datasets)
+    print("fk errors:", len(fk_errors))
