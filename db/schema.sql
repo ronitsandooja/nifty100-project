@@ -144,6 +144,10 @@ create table financial_ratios (
     dividend_payout_ratio_pct real,
     total_debt_cr real,
     cash_from_operations_cr real,
+    revenue_cagr_5yr real,
+    pat_cagr_5yr real,
+    eps_cagr_5yr real,
+    composite_quality_score real,
 
     unique(company_id, year),
 

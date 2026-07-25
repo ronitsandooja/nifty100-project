@@ -1,0 +1,730 @@
+ABB | 2012-12 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+ABB | 2014-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+ABB | 2015-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+ADANIENSOL | 2014-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+ADANIENSOL | 2015-03 | leverage | D/E=8.96 > 5, flagged high leverage
+ADANIENSOL | 2015-03 | interest_risk | ICR=1.42 < 1.5
+ADANIENSOL | 2024-03 | opm_mismatch | computed opm=34.39 vs source opm=30.0
+ADANIGREEN | 2017-03 | interest_risk | ICR=1.45 < 1.5
+ADANIGREEN | 2018-03 | leverage | D/E=7.36 > 5, flagged high leverage
+ADANIGREEN | 2019-03 | leverage | D/E=5.76 > 5, flagged high leverage
+ADANIGREEN | 2019-03 | interest_risk | ICR=1.43 < 1.5
+ADANIGREEN | 2020-03 | leverage | D/E=6.31 > 5, flagged high leverage
+ADANIGREEN | 2020-03 | interest_risk | ICR=1.35 < 1.5
+ADANIGREEN | 2021-03 | leverage | D/E=11.0 > 5, flagged high leverage
+ADANIGREEN | 2021-03 | interest_risk | ICR=1.35 < 1.5
+ADANIGREEN | 2022-03 | leverage | D/E=20.21 > 5, flagged high leverage
+ADANIGREEN | 2023-03 | leverage | D/E=7.42 > 5, flagged high leverage
+ADANIGREEN | 2024-03 | leverage | D/E=6.6 > 5, flagged high leverage
+ADANIPOWER | 2013-03 | leverage | D/E=9.74 > 5, flagged high leverage
+ADANIPOWER | 2013-03 | interest_risk | ICR=0.69 < 1.5
+ADANIPOWER | 2014-03 | leverage | D/E=6.75 > 5, flagged high leverage
+ADANIPOWER | 2014-03 | interest_risk | ICR=1.14 < 1.5
+ADANIPOWER | 2015-03 | leverage | D/E=7.82 > 5, flagged high leverage
+ADANIPOWER | 2015-03 | interest_risk | ICR=1.21 < 1.5
+ADANIPOWER | 2016-03 | leverage | D/E=7.06 > 5, flagged high leverage
+ADANIPOWER | 2017-03 | leverage | D/E=17.49 > 5, flagged high leverage
+ADANIPOWER | 2017-03 | interest_risk | ICR=0.39 < 1.5
+ADANIPOWER | 2018-03 | leverage | D/E=59.43 > 5, flagged high leverage
+ADANIPOWER | 2018-03 | interest_risk | ICR=1.11 < 1.5
+ADANIPOWER | 2019-03 | leverage | D/E=6.09 > 5, flagged high leverage
+ADANIPOWER | 2019-03 | interest_risk | ICR=1.31 < 1.5
+ADANIPOWER | 2020-03 | leverage | D/E=8.52 > 5, flagged high leverage
+ADANIPOWER | 2020-03 | interest_risk | ICR=1.14 < 1.5
+AXISBANK | 2013-03 | opm_mismatch | computed opm=30.58 vs source opm=1353.0
+AXISBANK | 2013-03 | interest_risk | ICR=1.27 < 1.5
+AXISBANK | 2014-03 | opm_mismatch | computed opm=31.47 vs source opm=2307.0
+AXISBANK | 2014-03 | interest_risk | ICR=1.3 < 1.5
+AXISBANK | 2015-03 | opm_mismatch | computed opm=31.36 vs source opm=3097.0
+AXISBANK | 2015-03 | interest_risk | ICR=1.33 < 1.5
+AXISBANK | 2016-03 | opm_mismatch | computed opm=32.61 vs source opm=3466.0
+AXISBANK | 2016-03 | interest_risk | ICR=1.43 < 1.5
+AXISBANK | 2017-03 | opm_mismatch | computed opm=53.45 vs source opm=-5715.0
+AXISBANK | 2018-03 | opm_mismatch | computed opm=63.12 vs source opm=-10277.0
+AXISBANK | 2019-03 | opm_mismatch | computed opm=49.39 vs source opm=-5447.0
+AXISBANK | 2020-03 | opm_mismatch | computed opm=55.98 vs source opm=-9859.0
+AXISBANK | 2021-03 | opm_mismatch | computed opm=50.12 vs source opm=-2510.0
+AXISBANK | 2022-03 | opm_mismatch | computed opm=44.47 vs source opm=3170.0
+AXISBANK | 2023-03 | opm_mismatch | computed opm=34.16 vs source opm=13857.0
+AXISBANK | 2024-03 | opm_mismatch | computed opm=34.69 vs source opm=11952.0
+BAJAJHLDNG | 2013-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+BAJAJHLDNG | 2014-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+BAJAJHLDNG | 2015-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+BAJAJHLDNG | 2016-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+BAJAJHLDNG | 2017-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+BAJAJHLDNG | 2018-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+BAJAJHLDNG | 2019-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+BAJFINANCE | 2015-03 | opm_mismatch | computed opm=32.49 vs source opm=1367.0
+BAJFINANCE | 2016-03 | opm_mismatch | computed opm=32.25 vs source opm=1986.0
+BAJFINANCE | 2017-03 | opm_mismatch | computed opm=32.6 vs source opm=2867.0
+BAJFINANCE | 2018-03 | opm_mismatch | computed opm=32.28 vs source opm=3935.0
+BAJFINANCE | 2019-03 | opm_mismatch | computed opm=29.5 vs source opm=6310.0
+BAJFINANCE | 2020-03 | opm_mismatch | computed opm=34.73 vs source opm=7608.0
+BAJFINANCE | 2021-03 | opm_mismatch | computed opm=40.64 vs source opm=6314.0
+BAJFINANCE | 2022-03 | opm_mismatch | computed opm=37.55 vs source opm=9906.0
+BAJFINANCE | 2022-03 | interest_risk | ICR=-700.65 < 1.5
+BAJFINANCE | 2023-03 | opm_mismatch | computed opm=30.65 vs source opm=16018.0
+BAJFINANCE | 2023-03 | interest_risk | ICR=-2546.4 < 1.5
+BAJFINANCE | 2024-03 | opm_mismatch | computed opm=29.29 vs source opm=19987.0
+BANKBARODA | 2013-03 | opm_mismatch | computed opm=30.05 vs source opm=1006.0
+BANKBARODA | 2014-03 | opm_mismatch | computed opm=29.78 vs source opm=809.0
+BANKBARODA | 2015-03 | opm_mismatch | computed opm=29.98 vs source opm=902.0
+BANKBARODA | 2016-03 | opm_mismatch | computed opm=55.44 vs source opm=-11700.0
+BANKBARODA | 2017-03 | opm_mismatch | computed opm=43.28 vs source opm=-4372.0
+BANKBARODA | 2018-03 | opm_mismatch | computed opm=56.65 vs source opm=-9197.0
+BANKBARODA | 2019-03 | opm_mismatch | computed opm=48.79 vs source opm=-5414.0
+BANKBARODA | 2020-03 | opm_mismatch | computed opm=51.44 vs source opm=-11728.0
+BANKBARODA | 2021-03 | opm_mismatch | computed opm=51.23 vs source opm=-6957.0
+BANKBARODA | 2022-03 | opm_mismatch | computed opm=51.12 vs source opm=-2948.0
+BANKBARODA | 2023-03 | opm_mismatch | computed opm=40.45 vs source opm=6329.0
+BANKBARODA | 2024-03 | opm_mismatch | computed opm=37.49 vs source opm=4102.0
+BHARTIARTL | 2020-03 | interest_risk | ICR=-0.08 < 1.5
+BHEL | 2016-03 | interest_risk | ICR=0.38 < 1.5
+BHEL | 2020-03 | interest_risk | ICR=0.75 < 1.5
+BHEL | 2021-03 | interest_risk | ICR=-5.69 < 1.5
+BOSCHLTD | 2013-12 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+CANBK | 2013-03 | opm_mismatch | computed opm=21.18 vs source opm=655.0
+CANBK | 2014-03 | opm_mismatch | computed opm=24.35 vs source opm=-672.0
+CANBK | 2015-03 | opm_mismatch | computed opm=23.51 vs source opm=-621.0
+CANBK | 2016-03 | opm_mismatch | computed opm=40.38 vs source opm=-8008.0
+CANBK | 2017-03 | opm_mismatch | computed opm=37.85 vs source opm=-5775.0
+CANBK | 2018-03 | opm_mismatch | computed opm=61.87 vs source opm=-13350.0
+CANBK | 2019-03 | opm_mismatch | computed opm=56.73 vs source opm=-11590.0
+CANBK | 2020-03 | opm_mismatch | computed opm=53.88 vs source opm=-12867.0
+CANBK | 2021-03 | opm_mismatch | computed opm=61.83 vs source opm=-18367.0
+CANBK | 2022-03 | opm_mismatch | computed opm=58.39 vs source opm=-13657.0
+CANBK | 2023-03 | opm_mismatch | computed opm=49.8 vs source opm=-9877.0
+CANBK | 2024-03 | opm_mismatch | computed opm=41.75 vs source opm=-7745.0
+CHOLAFIN | 2013-03 | opm_mismatch | computed opm=26.77 vs source opm=472.0
+CHOLAFIN | 2014-03 | opm_mismatch | computed opm=28.42 vs source opm=578.0
+CHOLAFIN | 2015-03 | opm_mismatch | computed opm=28.56 vs source opm=696.0
+CHOLAFIN | 2015-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+CHOLAFIN | 2016-03 | opm_mismatch | computed opm=30.04 vs source opm=899.0
+CHOLAFIN | 2017-03 | opm_mismatch | computed opm=28.16 vs source opm=1143.0
+CHOLAFIN | 2018-03 | opm_mismatch | computed opm=26.1 vs source opm=1451.0
+CHOLAFIN | 2018-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+CHOLAFIN | 2019-03 | opm_mismatch | computed opm=22.96 vs source opm=1888.0
+CHOLAFIN | 2020-03 | opm_mismatch | computed opm=27.79 vs source opm=1699.0
+CHOLAFIN | 2020-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+CHOLAFIN | 2021-03 | opm_mismatch | computed opm=30.4 vs source opm=2094.0
+CHOLAFIN | 2022-03 | opm_mismatch | computed opm=28.83 vs source opm=2924.0
+CHOLAFIN | 2023-03 | opm_mismatch | computed opm=28.1 vs source opm=3515.0
+CHOLAFIN | 2024-03 | opm_mismatch | computed opm=28.1 vs source opm=4548.0
+CIPLA | 2013-03 | opm_mismatch | computed opm=73.26 vs source opm=2214.0
+CIPLA | 2014-03 | opm_mismatch | computed opm=78.9 vs source opm=2147.0
+CIPLA | 2015-03 | opm_mismatch | computed opm=80.94 vs source opm=2163.0
+CIPLA | 2016-03 | opm_mismatch | computed opm=82.02 vs source opm=2480.0
+CIPLA | 2017-03 | opm_mismatch | computed opm=82.66 vs source opm=2496.0
+CIPLA | 2018-03 | opm_mismatch | computed opm=81.35 vs source opm=2826.0
+CIPLA | 2019-03 | opm_mismatch | computed opm=81.07 vs source opm=3097.0
+CIPLA | 2020-03 | opm_mismatch | computed opm=81.29 vs source opm=3206.0
+CIPLA | 2021-03 | opm_mismatch | computed opm=77.8 vs source opm=4252.0
+CIPLA | 2022-03 | opm_mismatch | computed opm=79.08 vs source opm=4553.0
+CIPLA | 2023-03 | opm_mismatch | computed opm=77.91 vs source opm=5027.0
+CIPLA | 2024-03 | opm_mismatch | computed opm=75.59 vs source opm=6291.0
+COALINDIA | 2013-03 | opm_mismatch | computed opm=73.52 vs source opm=18087.0
+COALINDIA | 2014-03 | opm_mismatch | computed opm=74.84 vs source opm=17766.0
+COALINDIA | 2015-03 | opm_mismatch | computed opm=76.6 vs source opm=17343.0
+COALINDIA | 2016-03 | opm_mismatch | computed opm=75.96 vs source opm=18714.0
+COALINDIA | 2017-03 | opm_mismatch | computed opm=84.07 vs source opm=12448.0
+COALINDIA | 2018-03 | opm_mismatch | computed opm=89.1 vs source opm=9288.0
+COALINDIA | 2019-03 | opm_mismatch | computed opm=74.89 vs source opm=25007.0
+COALINDIA | 2020-03 | opm_mismatch | computed opm=77.54 vs source opm=21581.0
+COALINDIA | 2021-03 | opm_mismatch | computed opm=79.31 vs source opm=18628.0
+COALINDIA | 2022-03 | opm_mismatch | computed opm=77.47 vs source opm=24721.0
+COALINDIA | 2023-03 | opm_mismatch | computed opm=68.01 vs source opm=44232.0
+COALINDIA | 2024-03 | opm_mismatch | computed opm=66.29 vs source opm=47971.0
+DLF | 2014-03 | interest_risk | ICR=1.47 < 1.5
+DLF | 2019-03 | interest_risk | ICR=1.42 < 1.5
+HDFCBANK | 2013-03 | opm_mismatch | computed opm=35.22 vs source opm=3534.0
+HDFCBANK | 2014-03 | opm_mismatch | computed opm=31.74 vs source opm=5602.0
+HDFCBANK | 2015-03 | opm_mismatch | computed opm=31.9 vs source opm=7214.0
+HDFCBANK | 2016-03 | opm_mismatch | computed opm=31.75 vs source opm=9037.0
+HDFCBANK | 2017-03 | opm_mismatch | computed opm=32.56 vs source opm=11374.0
+HDFCBANK | 2018-03 | opm_mismatch | computed opm=34.63 vs source opm=13374.0
+HDFCBANK | 2019-03 | opm_mismatch | computed opm=33.15 vs source opm=16592.0
+HDFCBANK | 2020-03 | opm_mismatch | computed opm=37.2 vs source opm=14593.0
+HDFCBANK | 2021-03 | opm_mismatch | computed opm=40.81 vs source opm=16848.0
+HDFCBANK | 2022-03 | opm_mismatch | computed opm=41.61 vs source opm=20795.0
+HDFCBANK | 2023-03 | opm_mismatch | computed opm=36.92 vs source opm=29932.0
+HDFCBANK | 2024-03 | opm_mismatch | computed opm=61.41 vs source opm=-44685.0
+HDFCBANK | 2024-03 | interest_risk | ICR=1.4 < 1.5
+HDFCLIFE | 2013-03 | opm_mismatch | computed opm=96.27 vs source opm=525.0
+HDFCLIFE | 2014-03 | opm_mismatch | computed opm=96.48 vs source opm=605.0
+HDFCLIFE | 2015-03 | opm_mismatch | computed opm=96.79 vs source opm=874.0
+HDFCLIFE | 2016-03 | opm_mismatch | computed opm=94.74 vs source opm=953.0
+HDFCLIFE | 2017-03 | opm_mismatch | computed opm=96.83 vs source opm=972.0
+HDFCLIFE | 2018-03 | opm_mismatch | computed opm=96.67 vs source opm=1074.0
+HDFCLIFE | 2019-03 | opm_mismatch | computed opm=96.87 vs source opm=1215.0
+HDFCLIFE | 2020-03 | opm_mismatch | computed opm=96.12 vs source opm=1141.0
+HDFCLIFE | 2021-03 | opm_mismatch | computed opm=98.27 vs source opm=1235.0
+HDFCLIFE | 2022-03 | opm_mismatch | computed opm=98.84 vs source opm=778.0
+HDFCLIFE | 2023-03 | opm_mismatch | computed opm=99.89 vs source opm=80.0
+HDFCLIFE | 2024-03 | opm_mismatch | computed opm=99.48 vs source opm=531.0
+HEROMOTOCO | 2014-03 | opm_mismatch | computed opm=85.94 vs source opm=3553.0
+HEROMOTOCO | 2015-03 | opm_mismatch | computed opm=87.22 vs source opm=3520.0
+HEROMOTOCO | 2016-03 | opm_mismatch | computed opm=84.45 vs source opm=4424.0
+HEROMOTOCO | 2017-03 | opm_mismatch | computed opm=83.97 vs source opm=4585.0
+HEROMOTOCO | 2018-03 | opm_mismatch | computed opm=83.57 vs source opm=5334.0
+HEROMOTOCO | 2019-03 | opm_mismatch | computed opm=85.21 vs source opm=5025.0
+HEROMOTOCO | 2020-03 | opm_mismatch | computed opm=86.09 vs source opm=4070.0
+HEROMOTOCO | 2021-03 | opm_mismatch | computed opm=86.9 vs source opm=4058.0
+HEROMOTOCO | 2022-03 | opm_mismatch | computed opm=88.98 vs source opm=3256.0
+HEROMOTOCO | 2023-03 | opm_mismatch | computed opm=88.0 vs source opm=4099.0
+HEROMOTOCO | 2024-03 | opm_mismatch | computed opm=86.15 vs source opm=5235.0
+HINDALCO | 2013-03 | opm_mismatch | computed opm=90.4 vs source opm=7699.0
+HINDALCO | 2014-03 | opm_mismatch | computed opm=90.85 vs source opm=8024.0
+HINDALCO | 2015-03 | opm_mismatch | computed opm=91.52 vs source opm=8844.0
+HINDALCO | 2015-03 | interest_risk | ICR=-114.72 < 1.5
+HINDALCO | 2016-03 | opm_mismatch | computed opm=92.12 vs source opm=7778.0
+HINDALCO | 2017-03 | opm_mismatch | computed opm=87.71 vs source opm=12317.0
+HINDALCO | 2018-03 | opm_mismatch | computed opm=88.11 vs source opm=13695.0
+HINDALCO | 2019-03 | opm_mismatch | computed opm=88.12 vs source opm=15511.0
+HINDALCO | 2020-03 | opm_mismatch | computed opm=87.89 vs source opm=14306.0
+HINDALCO | 2021-03 | opm_mismatch | computed opm=86.7 vs source opm=17559.0
+HINDALCO | 2021-03 | interest_risk | ICR=-115.97 < 1.5
+HINDALCO | 2022-03 | opm_mismatch | computed opm=85.47 vs source opm=28347.0
+HINDALCO | 2023-03 | opm_mismatch | computed opm=89.85 vs source opm=22666.0
+HINDALCO | 2024-03 | opm_mismatch | computed opm=88.95 vs source opm=23872.0
+HINDUNILVR | 2013-03 | opm_mismatch | computed opm=84.37 vs source opm=4220.0
+HINDUNILVR | 2014-03 | opm_mismatch | computed opm=83.72 vs source opm=4759.0
+HINDUNILVR | 2015-03 | opm_mismatch | computed opm=83.07 vs source opm=5412.0
+HINDUNILVR | 2016-03 | opm_mismatch | computed opm=81.64 vs source opm=5910.0
+HINDUNILVR | 2017-03 | opm_mismatch | computed opm=80.92 vs source opm=6328.0
+HINDUNILVR | 2018-03 | opm_mismatch | computed opm=78.9 vs source opm=7499.0
+HINDUNILVR | 2019-03 | opm_mismatch | computed opm=77.41 vs source opm=8880.0
+HINDUNILVR | 2020-03 | opm_mismatch | computed opm=75.21 vs source opm=9861.0
+HINDUNILVR | 2021-03 | opm_mismatch | computed opm=75.28 vs source opm=11626.0
+HINDUNILVR | 2022-03 | opm_mismatch | computed opm=75.49 vs source opm=12857.0
+HINDUNILVR | 2023-03 | opm_mismatch | computed opm=76.65 vs source opm=14147.0
+HINDUNILVR | 2024-03 | opm_mismatch | computed opm=76.32 vs source opm=14659.0
+ICICIBANK | 2013-03 | opm_mismatch | computed opm=70.59 vs source opm=-15085.0
+ICICIBANK | 2013-03 | interest_risk | ICR=1.08 < 1.5
+ICICIBANK | 2014-03 | opm_mismatch | computed opm=66.4 vs source opm=-13084.0
+ICICIBANK | 2014-03 | interest_risk | ICR=1.09 < 1.5
+ICICIBANK | 2015-03 | opm_mismatch | computed opm=70.53 vs source opm=-16120.0
+ICICIBANK | 2015-03 | interest_risk | ICR=1.1 < 1.5
+ICICIBANK | 2016-03 | opm_mismatch | computed opm=88.12 vs source opm=-26955.0
+ICICIBANK | 2016-03 | interest_risk | ICR=1.24 < 1.5
+ICICIBANK | 2017-03 | opm_mismatch | computed opm=104.76 vs source opm=-37737.0
+ICICIBANK | 2017-03 | interest_risk | ICR=1.22 < 1.5
+ICICIBANK | 2018-03 | opm_mismatch | computed opm=117.12 vs source opm=-44906.0
+ICICIBANK | 2018-03 | interest_risk | ICR=1.28 < 1.5
+ICICIBANK | 2019-03 | opm_mismatch | computed opm=116.38 vs source opm=-50971.0
+ICICIBANK | 2019-03 | interest_risk | ICR=1.41 < 1.5
+ICICIBANK | 2020-03 | opm_mismatch | computed opm=100.62 vs source opm=-45190.0
+ICICIBANK | 2020-03 | interest_risk | ICR=1.31 < 1.5
+ICICIBANK | 2021-03 | opm_mismatch | computed opm=102.41 vs source opm=-44805.0
+ICICIBANK | 2021-03 | interest_risk | ICR=1.26 < 1.5
+ICICIBANK | 2022-03 | opm_mismatch | computed opm=84.69 vs source opm=-26558.0
+ICICIBANK | 2022-03 | interest_risk | ICR=1.3 < 1.5
+ICICIBANK | 2023-03 | opm_mismatch | computed opm=72.57 vs source opm=-17341.0
+ICICIBANK | 2023-03 | interest_risk | ICR=1.35 < 1.5
+ICICIBANK | 2024-03 | opm_mismatch | computed opm=62.41 vs source opm=-14152.0
+ICICIBANK | 2024-03 | interest_risk | ICR=1.3 < 1.5
+ICICIGI | 2013-03 | opm_mismatch | computed opm=104.46 vs source opm=-178.0
+ICICIGI | 2014-03 | opm_mismatch | computed opm=105.19 vs source opm=-225.0
+ICICIGI | 2015-03 | opm_mismatch | computed opm=105.24 vs source opm=-221.0
+ICICIGI | 2016-03 | opm_mismatch | computed opm=87.34 vs source opm=764.0
+ICICIGI | 2016-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+ICICIGI | 2017-03 | opm_mismatch | computed opm=87.78 vs source opm=919.0
+ICICIGI | 2017-03 | interest_risk | ICR=-3306.5 < 1.5
+ICICIGI | 2018-03 | opm_mismatch | computed opm=103.79 vs source opm=-262.0
+ICICIGI | 2019-03 | opm_mismatch | computed opm=85.05 vs source opm=1669.0
+ICICIGI | 2019-03 | interest_risk | ICR=-4754.5 < 1.5
+ICICIGI | 2020-03 | opm_mismatch | computed opm=84.61 vs source opm=1772.0
+ICICIGI | 2021-03 | opm_mismatch | computed opm=82.97 vs source opm=2072.0
+ICICIGI | 2022-03 | opm_mismatch | computed opm=93.66 vs source opm=1016.0
+ICICIGI | 2023-03 | opm_mismatch | computed opm=92.93 vs source opm=1264.0
+ICICIGI | 2024-03 | opm_mismatch | computed opm=87.42 vs source opm=2577.0
+ICICIPRULI | 2013-03 | opm_mismatch | computed opm=96.28 vs source opm=745.0
+ICICIPRULI | 2014-03 | opm_mismatch | computed opm=93.13 vs source opm=1504.0
+ICICIPRULI | 2015-03 | opm_mismatch | computed opm=95.2 vs source opm=1655.0
+ICICIPRULI | 2016-03 | opm_mismatch | computed opm=91.17 vs source opm=1842.0
+ICICIPRULI | 2016-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+ICICIPRULI | 2017-03 | opm_mismatch | computed opm=95.22 vs source opm=1806.0
+ICICIPRULI | 2018-03 | opm_mismatch | computed opm=95.44 vs source opm=1771.0
+ICICIPRULI | 2019-03 | opm_mismatch | computed opm=98.7 vs source opm=541.0
+ICICIPRULI | 2020-03 | opm_mismatch | computed opm=101.52 vs source opm=-319.0
+ICICIPRULI | 2021-03 | opm_mismatch | computed opm=100.47 vs source opm=-390.0
+ICICIPRULI | 2022-03 | opm_mismatch | computed opm=103.4 vs source opm=-2163.0
+ICICIPRULI | 2023-03 | opm_mismatch | computed opm=103.48 vs source opm=-1757.0
+ICICIPRULI | 2024-03 | opm_mismatch | computed opm=102.03 vs source opm=-1829.0
+INDUSINDBK | 2013-03 | opm_mismatch | computed opm=27.88 vs source opm=286.0
+INDUSINDBK | 2013-03 | interest_risk | ICR=1.43 < 1.5
+INDUSINDBK | 2014-03 | opm_mismatch | computed opm=30.95 vs source opm=335.0
+INDUSINDBK | 2014-03 | interest_risk | ICR=1.35 < 1.5
+INDUSINDBK | 2015-03 | opm_mismatch | computed opm=32.33 vs source opm=288.0
+INDUSINDBK | 2015-03 | interest_risk | ICR=1.23 < 1.5
+INDUSINDBK | 2016-03 | opm_mismatch | computed opm=35.28 vs source opm=329.0
+INDUSINDBK | 2016-03 | interest_risk | ICR=1.27 < 1.5
+INDUSINDBK | 2017-03 | opm_mismatch | computed opm=39.46 vs source opm=379.0
+INDUSINDBK | 2017-03 | interest_risk | ICR=1.36 < 1.5
+INDUSINDBK | 2018-03 | opm_mismatch | computed opm=37.93 vs source opm=942.0
+INDUSINDBK | 2018-03 | interest_risk | ICR=1.38 < 1.5
+INDUSINDBK | 2019-03 | opm_mismatch | computed opm=41.7 vs source opm=-437.0
+INDUSINDBK | 2020-03 | opm_mismatch | computed opm=43.81 vs source opm=-553.0
+INDUSINDBK | 2021-03 | opm_mismatch | computed opm=55.16 vs source opm=-2469.0
+INDUSINDBK | 2022-03 | opm_mismatch | computed opm=51.39 vs source opm=-839.0
+INDUSINDBK | 2023-03 | opm_mismatch | computed opm=42.69 vs source opm=2067.0
+INDUSINDBK | 2024-03 | opm_mismatch | computed opm=38.55 vs source opm=2978.0
+INFY | 2016-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+INFY | 2017-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+INFY | 2018-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+INFY | 2019-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+IRCTC | 2015-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+IRCTC | 2016-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+IRFC | 2013-03 | interest_risk | ICR=1.36 < 1.5
+IRFC | 2014-03 | interest_risk | ICR=1.34 < 1.5
+IRFC | 2015-03 | interest_risk | ICR=1.38 < 1.5
+IRFC | 2016-03 | interest_risk | ICR=1.35 < 1.5
+IRFC | 2017-03 | interest_risk | ICR=1.31 < 1.5
+IRFC | 2018-03 | interest_risk | ICR=1.39 < 1.5
+IRFC | 2019-03 | interest_risk | ICR=1.35 < 1.5
+IRFC | 2020-03 | interest_risk | ICR=1.31 < 1.5
+IRFC | 2021-03 | interest_risk | ICR=1.39 < 1.5
+IRFC | 2022-03 | interest_risk | ICR=1.43 < 1.5
+IRFC | 2023-03 | interest_risk | ICR=1.35 < 1.5
+IRFC | 2024-03 | interest_risk | ICR=1.32 < 1.5
+JINDALSTEL | 2015-03 | interest_risk | ICR=1.41 < 1.5
+JINDALSTEL | 2016-03 | interest_risk | ICR=1.03 < 1.5
+JINDALSTEL | 2017-03 | interest_risk | ICR=1.26 < 1.5
+JIOFIN | 2023-03 | opm_mismatch | computed opm=86.67 vs source opm=88.0
+JIOFIN | 2023-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+JSWSTEEL | 2016-03 | interest_risk | ICR=1.24 < 1.5
+KOTAKBANK | 2013-03 | opm_mismatch | computed opm=60.92 vs source opm=-1789.0
+KOTAKBANK | 2013-03 | interest_risk | ICR=1.29 < 1.5
+KOTAKBANK | 2014-03 | opm_mismatch | computed opm=58.84 vs source opm=-1379.0
+KOTAKBANK | 2014-03 | interest_risk | ICR=1.33 < 1.5
+KOTAKBANK | 2015-03 | opm_mismatch | computed opm=72.96 vs source opm=-3366.0
+KOTAKBANK | 2015-03 | interest_risk | ICR=1.19 < 1.5
+KOTAKBANK | 2016-03 | opm_mismatch | computed opm=56.57 vs source opm=-2263.0
+KOTAKBANK | 2017-03 | opm_mismatch | computed opm=66.44 vs source opm=-3965.0
+KOTAKBANK | 2017-03 | interest_risk | ICR=1.27 < 1.5
+KOTAKBANK | 2018-03 | opm_mismatch | computed opm=66.87 vs source opm=-4141.0
+KOTAKBANK | 2018-03 | interest_risk | ICR=1.23 < 1.5
+KOTAKBANK | 2019-03 | opm_mismatch | computed opm=66.23 vs source opm=-5114.0
+KOTAKBANK | 2019-03 | interest_risk | ICR=1.22 < 1.5
+KOTAKBANK | 2020-03 | opm_mismatch | computed opm=67.45 vs source opm=-5005.0
+KOTAKBANK | 2020-03 | interest_risk | ICR=1.34 < 1.5
+KOTAKBANK | 2021-03 | opm_mismatch | computed opm=90.83 vs source opm=-9958.0
+KOTAKBANK | 2021-03 | interest_risk | ICR=1.26 < 1.5
+KOTAKBANK | 2022-03 | opm_mismatch | computed opm=90.98 vs source opm=-8512.0
+KOTAKBANK | 2022-03 | interest_risk | ICR=1.23 < 1.5
+KOTAKBANK | 2023-03 | opm_mismatch | computed opm=79.44 vs source opm=-5746.0
+KOTAKBANK | 2023-03 | interest_risk | ICR=1.29 < 1.5
+KOTAKBANK | 2024-03 | opm_mismatch | computed opm=83.67 vs source opm=-13382.0
+KOTAKBANK | 2024-03 | interest_risk | ICR=1.24 < 1.5
+LICI | 2019-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+LICI | 2020-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+LICI | 2021-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+LICI | 2022-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+LODHA | 2011-03 | leverage | D/E=7.52 > 5, flagged high leverage
+LODHA | 2019-03 | leverage | D/E=6.68 > 5, flagged high leverage
+LODHA | 2021-03 | interest_risk | ICR=1.09 < 1.5
+NAUKRI | 2020-03 | interest_risk | ICR=-4.57 < 1.5
+PFC | 2013-03 | interest_risk | ICR=0.55 < 1.5
+PFC | 2014-03 | interest_risk | ICR=0.58 < 1.5
+PFC | 2015-03 | interest_risk | ICR=0.55 < 1.5
+PFC | 2016-03 | interest_risk | ICR=0.55 < 1.5
+PFC | 2017-03 | interest_risk | ICR=0.32 < 1.5
+PFC | 2018-03 | interest_risk | ICR=0.39 < 1.5
+PFC | 2019-03 | interest_risk | ICR=0.52 < 1.5
+PFC | 2020-03 | interest_risk | ICR=0.35 < 1.5
+PFC | 2021-03 | interest_risk | ICR=0.45 < 1.5
+PFC | 2022-03 | interest_risk | ICR=0.52 < 1.5
+PFC | 2023-03 | interest_risk | ICR=0.56 < 1.5
+PFC | 2024-03 | interest_risk | ICR=0.58 < 1.5
+RECLTD | 2018-03 | interest_risk | ICR=1.45 < 1.5
+RECLTD | 2020-03 | interest_risk | ICR=1.37 < 1.5
+SBILIFE | 2020-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+SBILIFE | 2021-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+SBILIFE | 2022-03 | debt_free_substitution | interest = 0, ICR set to None (Debt Free)
+SBIN | 2013-03 | interest_risk | ICR=0.26 < 1.5
+SBIN | 2014-03 | interest_risk | ICR=0.19 < 1.5
+SBIN | 2015-03 | interest_risk | ICR=0.21 < 1.5
+SBIN | 2016-03 | interest_risk | ICR=0.14 < 1.5
+SBIN | 2017-03 | interest_risk | ICR=0.03 < 1.5
+SBIN | 2018-03 | interest_risk | ICR=-0.06 < 1.5
+SBIN | 2019-03 | interest_risk | ICR=0.06 < 1.5
+SBIN | 2020-03 | interest_risk | ICR=0.21 < 1.5
+SBIN | 2021-03 | interest_risk | ICR=0.23 < 1.5
+SBIN | 2022-03 | interest_risk | ICR=0.34 < 1.5
+SBIN | 2023-03 | interest_risk | ICR=0.42 < 1.5
+SBIN | 2024-03 | interest_risk | ICR=0.37 < 1.5
+SHRIRAMFIN | 2013-03 | interest_risk | ICR=0.71 < 1.5
+SHRIRAMFIN | 2014-03 | interest_risk | ICR=0.47 < 1.5
+SHRIRAMFIN | 2015-03 | interest_risk | ICR=0.36 < 1.5
+SHRIRAMFIN | 2016-03 | interest_risk | ICR=0.36 < 1.5
+SHRIRAMFIN | 2017-03 | interest_risk | ICR=0.38 < 1.5
+SHRIRAMFIN | 2018-03 | interest_risk | ICR=0.61 < 1.5
+SHRIRAMFIN | 2019-03 | interest_risk | ICR=0.51 < 1.5
+SHRIRAMFIN | 2020-03 | interest_risk | ICR=0.43 < 1.5
+SHRIRAMFIN | 2021-03 | interest_risk | ICR=0.38 < 1.5
+SHRIRAMFIN | 2022-03 | interest_risk | ICR=0.38 < 1.5
+SHRIRAMFIN | 2023-03 | interest_risk | ICR=0.68 < 1.5
+SHRIRAMFIN | 2024-03 | interest_risk | ICR=0.68 < 1.5
+SUNPHARMA | 2024-03 | opm_mismatch | computed opm=26.84 vs source opm=28.0
+TATAMOTORS | 2019-03 | interest_risk | ICR=-0.35 < 1.5
+TATASTEEL | 2013-03 | interest_risk | ICR=1.36 < 1.5
+TRENT | 2021-03 | interest_risk | ICR=1.2 < 1.5
+INDIGO | 2013-03 | opm_mismatch | computed opm=90.71 vs source opm=855.0
+INDIGO | 2014-03 | opm_mismatch | computed opm=96.11 vs source opm=433.0
+INDIGO | 2015-03 | opm_mismatch | computed opm=86.33 vs source opm=1904.0
+INDIGO | 2016-03 | opm_mismatch | computed opm=80.4 vs source opm=3164.0
+INDIGO | 2017-03 | opm_mismatch | computed opm=88.06 vs source opm=2219.0
+INDIGO | 2018-03 | opm_mismatch | computed opm=86.84 vs source opm=3030.0
+INDIGO | 2019-03 | opm_mismatch | computed opm=100.53 vs source opm=-151.0
+INDIGO | 2020-03 | opm_mismatch | computed opm=88.62 vs source opm=4069.0
+INDIGO | 2021-03 | opm_mismatch | computed opm=99.98 vs source opm=2.0
+INDIGO | 2022-03 | opm_mismatch | computed opm=97.85 vs source opm=558.0
+INDIGO | 2023-03 | opm_mismatch | computed opm=88.02 vs source opm=6521.0
+INDIGO | 2024-03 | opm_mismatch | computed opm=76.3 vs source opm=16331.0
+ADANIENSOL | 2017-03 | cagr_flag | revenue_cagr_3yr = ZERO_BASE
+ADANIENSOL | 2017-03 | cagr_flag | pat_cagr_3yr = ZERO_BASE
+ADANIENSOL | 2018-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+ADANIGREEN | 2020-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+ADANIGREEN | 2021-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+ADANIGREEN | 2022-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+ADANIGREEN | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+ADANIPOWER | 2016-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+ADANIPOWER | 2017-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+ADANIPOWER | 2018-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+ADANIPOWER | 2019-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+ADANIPOWER | 2020-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+ADANIPOWER | 2021-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+ADANIPOWER | 2022-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+ADANIPOWER | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+BANKBARODA | 2016-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+BANKBARODA | 2018-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+BANKBARODA | 2019-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+BANKBARODA | 2021-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+BHARTIARTL | 2020-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+BHARTIARTL | 2021-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+BHARTIARTL | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+BHARTIARTL | 2024-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+BHEL | 2016-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+BHEL | 2019-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+BHEL | 2020-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+BHEL | 2021-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+BHEL | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+BHEL | 2024-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+CANBK | 2016-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+CANBK | 2018-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+CANBK | 2019-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+CANBK | 2020-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+CANBK | 2021-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+CANBK | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+DLF | 2020-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+DLF | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+GODREJCP | 2024-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+HINDALCO | 2016-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+HINDALCO | 2019-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+IOC | 2020-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+IOC | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+JINDALSTEL | 2016-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+JINDALSTEL | 2017-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+JINDALSTEL | 2018-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+JINDALSTEL | 2019-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+JINDALSTEL | 2020-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+JINDALSTEL | 2021-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+JINDALSTEL | 2022-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+JINDALSTEL | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+JSWSTEEL | 2016-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+JSWSTEEL | 2019-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+M&M | 2020-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+M&M | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+NAUKRI | 2017-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+NAUKRI | 2018-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+NAUKRI | 2020-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+NAUKRI | 2023-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+PNB | 2016-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+PNB | 2018-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+PNB | 2019-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+PNB | 2021-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+PNB | 2022-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+SBIN | 2017-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+SBIN | 2018-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+SBIN | 2020-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+SBIN | 2021-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TATACONSUM | 2016-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+TATACONSUM | 2019-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TATAMOTORS | 2019-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+TATAMOTORS | 2020-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+TATAMOTORS | 2021-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+TATAMOTORS | 2022-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+TATAMOTORS | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TATAMOTORS | 2024-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TATASTEEL | 2016-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+TATASTEEL | 2017-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+TATASTEEL | 2018-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TATASTEEL | 2019-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TATASTEEL | 2020-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TATASTEEL | 2024-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+TRENT | 2016-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TRENT | 2017-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TRENT | 2021-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+TRENT | 2024-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+INDIGO | 2020-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+INDIGO | 2021-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+INDIGO | 2022-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+INDIGO | 2023-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+INDIGO | 2024-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+ADANIENSOL | 2019-03 | cagr_flag | revenue_cagr_5yr = ZERO_BASE
+ADANIENSOL | 2019-03 | cagr_flag | pat_cagr_5yr = ZERO_BASE
+ADANIENSOL | 2020-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+ADANIGREEN | 2022-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+ADANIGREEN | 2023-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+ADANIGREEN | 2024-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+ADANIPOWER | 2018-03 | cagr_flag | pat_cagr_5yr = BOTH_NEGATIVE
+ADANIPOWER | 2019-03 | cagr_flag | pat_cagr_5yr = BOTH_NEGATIVE
+ADANIPOWER | 2020-03 | cagr_flag | pat_cagr_5yr = BOTH_NEGATIVE
+ADANIPOWER | 2022-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+ADANIPOWER | 2023-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+ADANIPOWER | 2024-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+BANKBARODA | 2018-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+BANKBARODA | 2021-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+BANKBARODA | 2023-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+BHARTIARTL | 2020-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+BHARTIARTL | 2021-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+BHEL | 2020-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+BHEL | 2021-03 | cagr_flag | pat_cagr_5yr = BOTH_NEGATIVE
+CANBK | 2018-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+CANBK | 2020-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+CANBK | 2021-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+CANBK | 2023-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+DLF | 2020-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+GODREJCP | 2024-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+HINDALCO | 2021-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+IOC | 2020-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+JINDALSTEL | 2018-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+JINDALSTEL | 2019-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+JINDALSTEL | 2020-03 | cagr_flag | pat_cagr_5yr = BOTH_NEGATIVE
+JINDALSTEL | 2021-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+JINDALSTEL | 2022-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+JINDALSTEL | 2023-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+JINDALSTEL | 2024-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+JSWSTEEL | 2021-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+M&M | 2020-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+NAUKRI | 2020-03 | cagr_flag | pat_cagr_5yr = BOTH_NEGATIVE
+NAUKRI | 2022-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+NAUKRI | 2023-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+PNB | 2018-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+PNB | 2019-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+PNB | 2021-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+PNB | 2023-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+PNB | 2024-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+SBIN | 2018-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+SBIN | 2022-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+SBIN | 2023-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+TATACONSUM | 2021-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+TATAMOTORS | 2019-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+TATAMOTORS | 2020-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+TATAMOTORS | 2021-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+TATAMOTORS | 2022-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+TATAMOTORS | 2024-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+TATASTEEL | 2018-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+TATASTEEL | 2020-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+TATASTEEL | 2021-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+TATASTEEL | 2022-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+TATASTEEL | 2024-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+TRENT | 2018-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+TRENT | 2019-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+TRENT | 2021-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+INDIGO | 2020-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+INDIGO | 2021-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+INDIGO | 2022-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+INDIGO | 2023-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+ADANIENSOL | 2024-03 | cagr_flag | revenue_cagr_10yr = ZERO_BASE
+ADANIENSOL | 2024-03 | cagr_flag | pat_cagr_10yr = ZERO_BASE
+ADANIPOWER | 2023-03 | cagr_flag | pat_cagr_10yr = TURNAROUND
+ADANIPOWER | 2024-03 | cagr_flag | pat_cagr_10yr = TURNAROUND
+GODREJCP | 2024-03 | cagr_flag | pat_cagr_10yr = DECLINE_TO_LOSS
+NAUKRI | 2023-03 | cagr_flag | pat_cagr_10yr = DECLINE_TO_LOSS
+TATASTEEL | 2023-03 | cagr_flag | pat_cagr_10yr = TURNAROUND
+TATASTEEL | 2024-03 | cagr_flag | pat_cagr_10yr = DECLINE_TO_LOSS
+TRENT | 2023-03 | cagr_flag | pat_cagr_10yr = TURNAROUND
+TRENT | 2024-03 | cagr_flag | pat_cagr_10yr = TURNAROUND
+INDIGO | 2023-03 | cagr_flag | pat_cagr_10yr = DECLINE_TO_LOSS
+ADANIPOWER | 2017-03 | implausible_roe | return_on_equity_pct=-205.8 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+ADANIPOWER | 2018-03 | implausible_roe | return_on_equity_pct=-236.6 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+BEL | 2013-03 | implausible_roe | return_on_equity_pct=15183.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+BEL | 2014-03 | implausible_roe | return_on_equity_pct=13600.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+BEL | 2015-03 | implausible_roe | return_on_equity_pct=17100.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+BEL | 2016-03 | implausible_roe | return_on_equity_pct=11141.7 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+BEL | 2017-03 | implausible_roe | return_on_equity_pct=10153.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+BEL | 2018-03 | implausible_roe | return_on_equity_pct=4616.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+BEL | 2019-03 | implausible_roe | return_on_equity_pct=3851.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+BEL | 2020-03 | implausible_roe | return_on_equity_pct=3318.2 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+BEL | 2021-03 | implausible_roe | return_on_equity_pct=3559.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+BEL | 2022-03 | implausible_roe | return_on_equity_pct=3478.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+BEL | 2023-03 | implausible_roe | return_on_equity_pct=3981.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+BEL | 2024-03 | implausible_roe | return_on_equity_pct=4744.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+HAL | 2016-03 | implausible_roe | return_on_equity_pct=1665.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+HAL | 2017-03 | implausible_roe | return_on_equity_pct=1966.9 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+HAL | 2018-03 | implausible_roe | return_on_equity_pct=1528.5 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+HAL | 2019-03 | implausible_roe | return_on_equity_pct=1763.9 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+HAL | 2020-03 | implausible_roe | return_on_equity_pct=2059.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+HAL | 2021-03 | implausible_roe | return_on_equity_pct=2249.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+HAL | 2022-03 | implausible_roe | return_on_equity_pct=3324.2 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+HAL | 2023-03 | implausible_roe | return_on_equity_pct=3283.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+HAL | 2024-03 | implausible_roe | return_on_equity_pct=3816.6 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+LICI | 2019-03 | implausible_roe | return_on_equity_pct=324.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+LICI | 2020-03 | implausible_roe | return_on_equity_pct=270.5 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+LT | 2013-03 | implausible_roe | return_on_equity_pct=395.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+LT | 2014-03 | implausible_roe | return_on_equity_pct=303.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+LT | 2015-03 | implausible_roe | return_on_equity_pct=245.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+LT | 2016-03 | implausible_roe | return_on_equity_pct=216.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+LT | 2017-03 | implausible_roe | return_on_equity_pct=206.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+LT | 2018-03 | implausible_roe | return_on_equity_pct=207.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+LT | 2019-03 | implausible_roe | return_on_equity_pct=208.8 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+LT | 2020-03 | implausible_roe | return_on_equity_pct=201.6 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+PNB | 2013-03 | implausible_roe | return_on_equity_pct=812.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+PNB | 2014-03 | implausible_roe | return_on_equity_pct=393.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+PNB | 2015-03 | implausible_roe | return_on_equity_pct=223.2 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+INDIGO | 2013-03 | implausible_roe | return_on_equity_pct=17886.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+INDIGO | 2014-03 | implausible_roe | return_on_equity_pct=10772.7 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+INDIGO | 2015-03 | implausible_roe | return_on_equity_pct=4939.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+INDIGO | 2016-03 | implausible_roe | return_on_equity_pct=1534.8 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+INDIGO | 2017-03 | implausible_roe | return_on_equity_pct=1692.9 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+INDIGO | 2018-03 | implausible_roe | return_on_equity_pct=2242.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+INDIGO | 2021-03 | implausible_roe | return_on_equity_pct=-1094.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+INDIGO | 2024-03 | implausible_roe | return_on_equity_pct=892.6 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
+BEL | 2013-03 | implausible_roce | roce=1776.7 is outside a plausible range (data source issue)
+BEL | 2014-03 | implausible_roce | roce=2767.9 is outside a plausible range (data source issue)
+BEL | 2015-03 | implausible_roce | roce=3069.7 is outside a plausible range (data source issue)
+BEL | 2016-03 | implausible_roce | roce=3245.9 is outside a plausible range (data source issue)
+BEL | 2017-03 | implausible_roce | roce=3590.9 is outside a plausible range (data source issue)
+BEL | 2018-03 | implausible_roce | roce=2236.7 is outside a plausible range (data source issue)
+BEL | 2019-03 | implausible_roce | roce=2678.1 is outside a plausible range (data source issue)
+BEL | 2020-03 | implausible_roce | roce=2411.1 is outside a plausible range (data source issue)
+BEL | 2021-03 | implausible_roce | roce=2617.6 is outside a plausible range (data source issue)
+BEL | 2022-03 | implausible_roce | roce=2317.3 is outside a plausible range (data source issue)
+BEL | 2023-03 | implausible_roce | roce=3211.4 is outside a plausible range (data source issue)
+BEL | 2024-03 | implausible_roce | roce=3628.3 is outside a plausible range (data source issue)
+COALINDIA | 2017-03 | implausible_roce | roce=228.1 is outside a plausible range (data source issue)
+COALINDIA | 2018-03 | implausible_roce | roce=335.7 is outside a plausible range (data source issue)
+COALINDIA | 2019-03 | implausible_roce | roce=248.1 is outside a plausible range (data source issue)
+HAL | 2016-03 | implausible_roce | roce=1170.3 is outside a plausible range (data source issue)
+HAL | 2017-03 | implausible_roce | roce=1892.6 is outside a plausible range (data source issue)
+HAL | 2018-03 | implausible_roce | roce=1889.5 is outside a plausible range (data source issue)
+HAL | 2019-03 | implausible_roce | roce=2514.2 is outside a plausible range (data source issue)
+HAL | 2020-03 | implausible_roce | roce=2772.9 is outside a plausible range (data source issue)
+HAL | 2021-03 | implausible_roce | roce=2789.3 is outside a plausible range (data source issue)
+HAL | 2022-03 | implausible_roce | roce=2612.1 is outside a plausible range (data source issue)
+HAL | 2023-03 | implausible_roce | roce=2180.8 is outside a plausible range (data source issue)
+HAL | 2024-03 | implausible_roce | roce=2591.0 is outside a plausible range (data source issue)
+HDFCLIFE | 2013-03 | implausible_roce | roce=1009.7 is outside a plausible range (data source issue)
+HDFCLIFE | 2014-03 | implausible_roce | roce=856.8 is outside a plausible range (data source issue)
+HDFCLIFE | 2015-03 | implausible_roce | roce=1034.9 is outside a plausible range (data source issue)
+HDFCLIFE | 2016-03 | implausible_roce | roce=552.4 is outside a plausible range (data source issue)
+HDFCLIFE | 2017-03 | implausible_roce | roce=774.5 is outside a plausible range (data source issue)
+HDFCLIFE | 2018-03 | implausible_roce | roce=661.9 is outside a plausible range (data source issue)
+HDFCLIFE | 2019-03 | implausible_roce | roce=666.3 is outside a plausible range (data source issue)
+HDFCLIFE | 2020-03 | implausible_roce | roce=414.2 is outside a plausible range (data source issue)
+HDFCLIFE | 2021-03 | implausible_roce | roce=760.2 is outside a plausible range (data source issue)
+HDFCLIFE | 2022-03 | implausible_roce | roce=408.9 is outside a plausible range (data source issue)
+HDFCLIFE | 2023-03 | implausible_roce | roce=502.4 is outside a plausible range (data source issue)
+HDFCLIFE | 2024-03 | implausible_roce | roce=646.0 is outside a plausible range (data source issue)
+HEROMOTOCO | 2014-03 | implausible_roce | roce=349.0 is outside a plausible range (data source issue)
+HEROMOTOCO | 2015-03 | implausible_roce | roce=353.6 is outside a plausible range (data source issue)
+HEROMOTOCO | 2016-03 | implausible_roce | roce=260.2 is outside a plausible range (data source issue)
+HEROMOTOCO | 2017-03 | implausible_roce | roce=222.4 is outside a plausible range (data source issue)
+HEROMOTOCO | 2018-03 | implausible_roce | roce=217.6 is outside a plausible range (data source issue)
+HEROMOTOCO | 2019-03 | implausible_roce | roce=210.9 is outside a plausible range (data source issue)
+HINDUNILVR | 2013-03 | implausible_roce | roce=779.7 is outside a plausible range (data source issue)
+HINDUNILVR | 2014-03 | implausible_roce | roce=674.8 is outside a plausible range (data source issue)
+HINDUNILVR | 2015-03 | implausible_roce | roce=644.7 is outside a plausible range (data source issue)
+HINDUNILVR | 2016-03 | implausible_roce | roce=384.0 is outside a plausible range (data source issue)
+HINDUNILVR | 2017-03 | implausible_roce | roce=376.0 is outside a plausible range (data source issue)
+HINDUNILVR | 2018-03 | implausible_roce | roce=378.1 is outside a plausible range (data source issue)
+HINDUNILVR | 2019-03 | implausible_roce | roce=374.9 is outside a plausible range (data source issue)
+HINDUNILVR | 2020-03 | implausible_roce | roce=351.4 is outside a plausible range (data source issue)
+ICICIGI | 2013-03 | implausible_roce | roce=221.5 is outside a plausible range (data source issue)
+ICICIPRULI | 2013-03 | implausible_roce | roce=485.7 is outside a plausible range (data source issue)
+ICICIPRULI | 2014-03 | implausible_roce | roce=464.0 is outside a plausible range (data source issue)
+ICICIPRULI | 2015-03 | implausible_roce | roce=622.2 is outside a plausible range (data source issue)
+ICICIPRULI | 2016-03 | implausible_roce | roce=299.2 is outside a plausible range (data source issue)
+ICICIPRULI | 2017-03 | implausible_roce | roce=561.2 is outside a plausible range (data source issue)
+ICICIPRULI | 2018-03 | implausible_roce | roce=563.1 is outside a plausible range (data source issue)
+ICICIPRULI | 2019-03 | implausible_roce | roce=594.7 is outside a plausible range (data source issue)
+ICICIPRULI | 2020-03 | implausible_roce | roce=295.1 is outside a plausible range (data source issue)
+ICICIPRULI | 2021-03 | implausible_roce | roce=810.1 is outside a plausible range (data source issue)
+ICICIPRULI | 2022-03 | implausible_roce | roce=633.9 is outside a plausible range (data source issue)
+ICICIPRULI | 2023-03 | implausible_roce | roce=461.9 is outside a plausible range (data source issue)
+ICICIPRULI | 2024-03 | implausible_roce | roce=754.0 is outside a plausible range (data source issue)
+LT | 2013-03 | implausible_roce | roce=620.3 is outside a plausible range (data source issue)
+LT | 2014-03 | implausible_roce | roce=734.9 is outside a plausible range (data source issue)
+LT | 2015-03 | implausible_roce | roce=582.0 is outside a plausible range (data source issue)
+LT | 2016-03 | implausible_roce | roce=628.4 is outside a plausible range (data source issue)
+LT | 2017-03 | implausible_roce | roce=453.2 is outside a plausible range (data source issue)
+LT | 2018-03 | implausible_roce | roce=463.4 is outside a plausible range (data source issue)
+LT | 2019-03 | implausible_roce | roce=428.0 is outside a plausible range (data source issue)
+LT | 2020-03 | implausible_roce | roce=349.8 is outside a plausible range (data source issue)
+LT | 2021-03 | implausible_roce | roce=253.7 is outside a plausible range (data source issue)
+INDIGO | 2013-03 | implausible_roce | roce=53649.4 is outside a plausible range (data source issue)
+INDIGO | 2014-03 | implausible_roce | roce=56837.0 is outside a plausible range (data source issue)
+INDIGO | 2015-03 | implausible_roce | roce=38552.6 is outside a plausible range (data source issue)
+INDIGO | 2016-03 | implausible_roce | roce=9076.4 is outside a plausible range (data source issue)
+INDIGO | 2017-03 | implausible_roce | roce=10603.3 is outside a plausible range (data source issue)
+INDIGO | 2018-03 | implausible_roce | roce=12697.4 is outside a plausible range (data source issue)
+INDIGO | 2019-03 | implausible_roce | roce=12851.6 is outside a plausible range (data source issue)
+INDIGO | 2020-03 | implausible_roce | roce=10910.6 is outside a plausible range (data source issue)
+INDIGO | 2021-03 | implausible_roce | roce=1734.6 is outside a plausible range (data source issue)
+INDIGO | 2022-03 | implausible_roce | roce=3067.2 is outside a plausible range (data source issue)
+INDIGO | 2023-03 | implausible_roce | roce=5427.8 is outside a plausible range (data source issue)
+INDIGO | 2024-03 | implausible_roce | roce=4953.5 is outside a plausible range (data source issue)
+ABB | 2024-03 | roce_source_mismatch | computed=36.54 vs source=46.0 (formula discrepancy)
+BAJFINANCE | 2024-03 | roce_source_mismatch | computed=4.17 vs source=11.9 (formula discrepancy)
+BAJAJ-AUTO | 2024-03 | roce_source_mismatch | computed=27.21 vs source=33.5 (formula discrepancy)
+BEL | 2024-03 | roce_source_mismatch | computed=3628.35 vs source=34.6 (formula discrepancy)
+BEL | 2024-03 | roe_source_mismatch | computed=4744.05 vs source=26.3 (formula discrepancy)
+BAJAJHLDNG | 2024-03 | roce_source_mismatch | computed=2.81 vs source=13.1 (formula discrepancy)
+ADANIPOWER | 2024-03 | roce_source_mismatch | computed=18.39 vs source=32.2 (formula discrepancy)
+ADANIPOWER | 2024-03 | roe_source_mismatch | computed=48.28 vs source=57.1 (formula discrepancy)
+BAJAJFINSV | 2024-03 | roce_source_mismatch | computed=11.45 vs source=21.14 (formula discrepancy)
+BAJAJFINSV | 2024-03 | roe_source_mismatch | computed=25.85 vs source=11.72 (formula discrepancy)
+ASIANPAINT | 2024-03 | roce_source_mismatch | computed=31.75 vs source=41.75 (formula discrepancy)
+ADANIGREEN | 2024-03 | roce_source_mismatch | computed=7.25 vs source=96.5 (formula discrepancy)
+ADANIENT | 2024-03 | roe_source_mismatch | computed=8.53 vs source=13.64 (formula discrepancy)
+TRENT | 2024-03 | roe_source_mismatch | computed=36.31 vs source=27.2 (formula discrepancy)
+TCS | 2024-03 | roe_source_mismatch | computed=50.94 vs source=0.52 (data source issue)
+INFY | 2024-03 | roce_source_mismatch | computed=32.91 vs source=40.0 (formula discrepancy)
+IRCTC | 2024-03 | roce_source_mismatch | computed=42.83 vs source=53.8 (formula discrepancy)
+IRCTC | 2024-03 | roe_source_mismatch | computed=34.4 vs source=40.4 (formula discrepancy)
+SBILIFE | 2024-03 | roce_source_mismatch | computed=1.14 vs source=13.2 (formula discrepancy)
+LICI | 2024-03 | roce_source_mismatch | computed=39.05 vs source=63.79 (formula discrepancy)
+LICI | 2024-03 | roe_source_mismatch | computed=49.45 vs source=63.61 (formula discrepancy)
+LT | 2024-03 | roce_source_mismatch | computed=118.53 vs source=17.18 (formula discrepancy)
+LT | 2024-03 | roe_source_mismatch | computed=77.67 vs source=10.49 (formula discrepancy)
+LTIM | 2024-03 | roce_source_mismatch | computed=25.21 vs source=34.1 (formula discrepancy)
+M&M | 2024-03 | roce_source_mismatch | computed=11.54 vs source=26.98 (formula discrepancy)
+MARUTI | 2024-03 | roce_source_mismatch | computed=15.59 vs source=23.67 (formula discrepancy)
+NESTLEIND | 2024-03 | roce_source_mismatch | computed=143.15 vs source=185.43 (formula discrepancy)
+NESTLEIND | 2024-03 | roe_source_mismatch | computed=117.75 vs source=135.61 (formula discrepancy)
+PNB | 2024-03 | roe_source_mismatch | computed=61.32 vs source=8.7 (formula discrepancy)
+PFC | 2024-03 | roce_source_mismatch | computed=3.48 vs source=9.96 (formula discrepancy)
+PFC | 2024-03 | roe_source_mismatch | computed=26.16 vs source=19.49 (formula discrepancy)
+BOSCHLTD | 2024-03 | roce_source_mismatch | computed=13.76 vs source=20.6 (formula discrepancy)
+ICICIPRULI | 2024-03 | roce_source_mismatch | computed=753.98 vs source=8.75 (formula discrepancy)
+BPCL | 2024-03 | roe_source_mismatch | computed=35.51 vs source=41.9 (formula discrepancy)
+CHOLAFIN | 2024-03 | roce_source_mismatch | computed=3.37 vs source=10.4 (formula discrepancy)
+TATASTEEL | 2024-03 | roe_source_mismatch | computed=-5.33 vs source=6.55 (formula discrepancy)
+CIPLA | 2024-03 | roce_source_mismatch | computed=67.6 vs source=22.8 (formula discrepancy)
+COALINDIA | 2024-03 | roce_source_mismatch | computed=98.17 vs source=63.6 (formula discrepancy)
+COALINDIA | 2024-03 | roe_source_mismatch | computed=45.17 vs source=52.0 (formula discrepancy)
+TATAMOTORS | 2024-03 | roe_source_mismatch | computed=37.46 vs source=49.4 (formula discrepancy)
+DRREDDY | 2024-03 | roce_source_mismatch | computed=21.36 vs source=26.5 (formula discrepancy)
+ICICIGI | 2024-03 | roce_source_mismatch | computed=145.23 vs source=22.5 (formula discrepancy)
+EICHERMOT | 2024-03 | roce_source_mismatch | computed=20.21 vs source=31.1 (formula discrepancy)
+GODREJCP | 2024-03 | roce_source_mismatch | computed=17.17 vs source=26.49 (formula discrepancy)
+GODREJCP | 2024-03 | roe_source_mismatch | computed=-4.45 vs source=6.77 (formula discrepancy)
+HAL | 2024-03 | roce_source_mismatch | computed=2590.99 vs source=38.9 (formula discrepancy)
+HAL | 2024-03 | roe_source_mismatch | computed=3816.58 vs source=28.9 (formula discrepancy)
+HDFCLIFE | 2024-03 | roce_source_mismatch | computed=645.95 vs source=6.61 (formula discrepancy)
+HEROMOTOCO | 2024-03 | roce_source_mismatch | computed=173.71 vs source=29.1 (formula discrepancy)
+HINDALCO | 2024-03 | roce_source_mismatch | computed=113.58 vs source=11.3 (formula discrepancy)
+HINDUNILVR | 2024-03 | roce_source_mismatch | computed=87.32 vs source=27.2 (formula discrepancy)
+SHRIRAMFIN | 2024-03 | roce_source_mismatch | computed=4.06 vs source=11.3 (formula discrepancy)
+INDIGO | 2024-03 | roce_source_mismatch | computed=4953.54 vs source=24.5 (formula discrepancy)
+SIEMENS | 2024-09 | roce_source_mismatch | computed=17.74 vs source=25.6 (formula discrepancy)
