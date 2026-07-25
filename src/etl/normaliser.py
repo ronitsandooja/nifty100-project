@@ -85,7 +85,7 @@ def normalize_year(value):
 # dataframe helpers
 
 def clean_text_columns(df):
-    for col in df.select_dtypes(include=["object"]).columns:
+    for col in df.select_dtypes(include=["object", "str"]).columns:
         df[col] = df[col].apply(clean_text)
     return df
 
