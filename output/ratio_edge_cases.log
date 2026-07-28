@@ -382,349 +382,524 @@ INDIGO | 2023-03 | opm_mismatch | computed opm=88.02 vs source opm=6521.0
 INDIGO | 2024-03 | opm_mismatch | computed opm=76.3 vs source opm=16331.0
 ADANIENSOL | 2017-03 | cagr_flag | revenue_cagr_3yr = ZERO_BASE
 ADANIENSOL | 2017-03 | cagr_flag | pat_cagr_3yr = ZERO_BASE
+ADANIENSOL | 2017-03 | cagr_flag | eps_cagr_3yr = ZERO_BASE
 ADANIENSOL | 2018-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+ADANIENSOL | 2018-03 | cagr_flag | eps_cagr_3yr = ZERO_BASE
 ADANIGREEN | 2020-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+ADANIGREEN | 2020-03 | cagr_flag | eps_cagr_3yr = ZERO_BASE
 ADANIGREEN | 2021-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+ADANIGREEN | 2021-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 ADANIGREEN | 2022-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+ADANIGREEN | 2022-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 ADANIGREEN | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+ADANIGREEN | 2023-03 | cagr_flag | eps_cagr_3yr = ZERO_BASE
 ADANIPOWER | 2016-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+ADANIPOWER | 2016-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 ADANIPOWER | 2017-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+ADANIPOWER | 2017-03 | cagr_flag | eps_cagr_3yr = BOTH_NEGATIVE
 ADANIPOWER | 2018-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+ADANIPOWER | 2018-03 | cagr_flag | eps_cagr_3yr = BOTH_NEGATIVE
 ADANIPOWER | 2019-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+ADANIPOWER | 2019-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 ADANIPOWER | 2020-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+ADANIPOWER | 2020-03 | cagr_flag | eps_cagr_3yr = BOTH_NEGATIVE
 ADANIPOWER | 2021-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+ADANIPOWER | 2021-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 ADANIPOWER | 2022-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+ADANIPOWER | 2022-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 ADANIPOWER | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+ADANIPOWER | 2023-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 BANKBARODA | 2016-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+BANKBARODA | 2016-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 BANKBARODA | 2018-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+BANKBARODA | 2018-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 BANKBARODA | 2019-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+BANKBARODA | 2019-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 BANKBARODA | 2021-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+BANKBARODA | 2021-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 BHARTIARTL | 2020-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+BHARTIARTL | 2020-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 BHARTIARTL | 2021-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+BHARTIARTL | 2021-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 BHARTIARTL | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+BHARTIARTL | 2023-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 BHARTIARTL | 2024-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+BHARTIARTL | 2024-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 BHEL | 2016-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+BHEL | 2016-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 BHEL | 2019-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+BHEL | 2019-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 BHEL | 2020-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+BHEL | 2020-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 BHEL | 2021-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+BHEL | 2021-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 BHEL | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+BHEL | 2023-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 BHEL | 2024-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+BHEL | 2024-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 CANBK | 2016-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+CANBK | 2016-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 CANBK | 2018-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+CANBK | 2018-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 CANBK | 2019-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+CANBK | 2019-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 CANBK | 2020-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+CANBK | 2020-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 CANBK | 2021-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+CANBK | 2021-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 CANBK | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+CANBK | 2023-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 DLF | 2020-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+DLF | 2020-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 DLF | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+DLF | 2023-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 GODREJCP | 2024-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+GODREJCP | 2024-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 HINDALCO | 2016-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+HINDALCO | 2016-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 HINDALCO | 2019-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+HINDALCO | 2019-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 IOC | 2020-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+IOC | 2020-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 IOC | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+IOC | 2023-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 JINDALSTEL | 2016-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+JINDALSTEL | 2016-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 JINDALSTEL | 2017-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+JINDALSTEL | 2017-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 JINDALSTEL | 2018-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+JINDALSTEL | 2018-03 | cagr_flag | eps_cagr_3yr = BOTH_NEGATIVE
 JINDALSTEL | 2019-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+JINDALSTEL | 2019-03 | cagr_flag | eps_cagr_3yr = BOTH_NEGATIVE
 JINDALSTEL | 2020-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+JINDALSTEL | 2020-03 | cagr_flag | eps_cagr_3yr = BOTH_NEGATIVE
 JINDALSTEL | 2021-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+JINDALSTEL | 2021-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 JINDALSTEL | 2022-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+JINDALSTEL | 2022-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 JINDALSTEL | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+JINDALSTEL | 2023-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
+JSWENERGY | 2018-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
+JSWENERGY | 2021-03 | cagr_flag | eps_cagr_3yr = ZERO_BASE
 JSWSTEEL | 2016-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+JSWSTEEL | 2016-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 JSWSTEEL | 2019-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+JSWSTEEL | 2019-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
+LICI | 2022-03 | cagr_flag | eps_cagr_3yr = BOTH_NEGATIVE
+LICI | 2023-03 | cagr_flag | eps_cagr_3yr = BOTH_NEGATIVE
 M&M | 2020-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
 M&M | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
 NAUKRI | 2017-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+NAUKRI | 2017-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 NAUKRI | 2018-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
 NAUKRI | 2020-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+NAUKRI | 2020-03 | cagr_flag | eps_cagr_3yr = BOTH_NEGATIVE
 NAUKRI | 2023-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+NAUKRI | 2023-03 | cagr_flag | eps_cagr_3yr = BOTH_NEGATIVE
 PNB | 2016-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+PNB | 2016-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 PNB | 2018-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+PNB | 2018-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 PNB | 2019-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+PNB | 2019-03 | cagr_flag | eps_cagr_3yr = BOTH_NEGATIVE
 PNB | 2021-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+PNB | 2021-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 PNB | 2022-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+PNB | 2022-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 SBIN | 2017-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+SBIN | 2017-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 SBIN | 2018-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+SBIN | 2018-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 SBIN | 2020-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+SBIN | 2020-03 | cagr_flag | eps_cagr_3yr = ZERO_BASE
 SBIN | 2021-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+SBIN | 2021-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
+SIEMENS | 2014-09 | cagr_flag | eps_cagr_3yr = BOTH_NEGATIVE
 TATACONSUM | 2016-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+TATACONSUM | 2016-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 TATACONSUM | 2019-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TATACONSUM | 2019-03 | cagr_flag | eps_cagr_3yr = ZERO_BASE
 TATAMOTORS | 2019-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+TATAMOTORS | 2019-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 TATAMOTORS | 2020-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+TATAMOTORS | 2020-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 TATAMOTORS | 2021-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+TATAMOTORS | 2021-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 TATAMOTORS | 2022-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+TATAMOTORS | 2022-03 | cagr_flag | eps_cagr_3yr = BOTH_NEGATIVE
 TATAMOTORS | 2023-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TATAMOTORS | 2023-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 TATAMOTORS | 2024-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TATAMOTORS | 2024-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
+TATAPOWER | 2016-03 | cagr_flag | eps_cagr_3yr = ZERO_BASE
+TATAPOWER | 2017-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 TATASTEEL | 2016-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+TATASTEEL | 2016-03 | cagr_flag | eps_cagr_3yr = BOTH_NEGATIVE
 TATASTEEL | 2017-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+TATASTEEL | 2017-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 TATASTEEL | 2018-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TATASTEEL | 2018-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 TATASTEEL | 2019-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TATASTEEL | 2019-03 | cagr_flag | eps_cagr_3yr = ZERO_BASE
 TATASTEEL | 2020-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TATASTEEL | 2020-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 TATASTEEL | 2024-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+TATASTEEL | 2024-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 TRENT | 2016-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TRENT | 2016-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 TRENT | 2017-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TRENT | 2017-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 TRENT | 2021-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+TRENT | 2021-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 TRENT | 2024-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+TRENT | 2024-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 INDIGO | 2020-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+INDIGO | 2020-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 INDIGO | 2021-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+INDIGO | 2021-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 INDIGO | 2022-03 | cagr_flag | pat_cagr_3yr = DECLINE_TO_LOSS
+INDIGO | 2022-03 | cagr_flag | eps_cagr_3yr = DECLINE_TO_LOSS
 INDIGO | 2023-03 | cagr_flag | pat_cagr_3yr = BOTH_NEGATIVE
+INDIGO | 2023-03 | cagr_flag | eps_cagr_3yr = BOTH_NEGATIVE
 INDIGO | 2024-03 | cagr_flag | pat_cagr_3yr = TURNAROUND
+INDIGO | 2024-03 | cagr_flag | eps_cagr_3yr = TURNAROUND
 ADANIENSOL | 2019-03 | cagr_flag | revenue_cagr_5yr = ZERO_BASE
 ADANIENSOL | 2019-03 | cagr_flag | pat_cagr_5yr = ZERO_BASE
+ADANIENSOL | 2019-03 | cagr_flag | eps_cagr_5yr = ZERO_BASE
 ADANIENSOL | 2020-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+ADANIENSOL | 2020-03 | cagr_flag | eps_cagr_5yr = ZERO_BASE
 ADANIGREEN | 2022-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+ADANIGREEN | 2022-03 | cagr_flag | eps_cagr_5yr = ZERO_BASE
 ADANIGREEN | 2023-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+ADANIGREEN | 2023-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 ADANIGREEN | 2024-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+ADANIGREEN | 2024-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 ADANIPOWER | 2018-03 | cagr_flag | pat_cagr_5yr = BOTH_NEGATIVE
+ADANIPOWER | 2018-03 | cagr_flag | eps_cagr_5yr = BOTH_NEGATIVE
 ADANIPOWER | 2019-03 | cagr_flag | pat_cagr_5yr = BOTH_NEGATIVE
+ADANIPOWER | 2019-03 | cagr_flag | eps_cagr_5yr = BOTH_NEGATIVE
 ADANIPOWER | 2020-03 | cagr_flag | pat_cagr_5yr = BOTH_NEGATIVE
+ADANIPOWER | 2020-03 | cagr_flag | eps_cagr_5yr = BOTH_NEGATIVE
 ADANIPOWER | 2022-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+ADANIPOWER | 2022-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 ADANIPOWER | 2023-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+ADANIPOWER | 2023-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 ADANIPOWER | 2024-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+ADANIPOWER | 2024-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 BANKBARODA | 2018-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+BANKBARODA | 2018-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 BANKBARODA | 2021-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+BANKBARODA | 2021-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 BANKBARODA | 2023-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+BANKBARODA | 2023-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 BHARTIARTL | 2020-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+BHARTIARTL | 2020-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 BHARTIARTL | 2021-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+BHARTIARTL | 2021-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 BHEL | 2020-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+BHEL | 2020-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 BHEL | 2021-03 | cagr_flag | pat_cagr_5yr = BOTH_NEGATIVE
+BHEL | 2021-03 | cagr_flag | eps_cagr_5yr = BOTH_NEGATIVE
 CANBK | 2018-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+CANBK | 2018-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 CANBK | 2020-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+CANBK | 2020-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 CANBK | 2021-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+CANBK | 2021-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 CANBK | 2023-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+CANBK | 2023-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 DLF | 2020-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+DLF | 2020-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 GODREJCP | 2024-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+GODREJCP | 2024-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 HINDALCO | 2021-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+HINDALCO | 2021-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 IOC | 2020-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+IOC | 2020-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 JINDALSTEL | 2018-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+JINDALSTEL | 2018-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 JINDALSTEL | 2019-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+JINDALSTEL | 2019-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 JINDALSTEL | 2020-03 | cagr_flag | pat_cagr_5yr = BOTH_NEGATIVE
+JINDALSTEL | 2020-03 | cagr_flag | eps_cagr_5yr = BOTH_NEGATIVE
 JINDALSTEL | 2021-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+JINDALSTEL | 2021-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 JINDALSTEL | 2022-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+JINDALSTEL | 2022-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 JINDALSTEL | 2023-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+JINDALSTEL | 2023-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 JINDALSTEL | 2024-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+JINDALSTEL | 2024-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
+JSWENERGY | 2018-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
+JSWENERGY | 2023-03 | cagr_flag | eps_cagr_5yr = ZERO_BASE
 JSWSTEEL | 2021-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+JSWSTEEL | 2021-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
+LICI | 2024-03 | cagr_flag | eps_cagr_5yr = BOTH_NEGATIVE
 M&M | 2020-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
 NAUKRI | 2020-03 | cagr_flag | pat_cagr_5yr = BOTH_NEGATIVE
+NAUKRI | 2020-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 NAUKRI | 2022-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+NAUKRI | 2022-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 NAUKRI | 2023-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+NAUKRI | 2023-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 PNB | 2018-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+PNB | 2018-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 PNB | 2019-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+PNB | 2019-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 PNB | 2021-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+PNB | 2021-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 PNB | 2023-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+PNB | 2023-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 PNB | 2024-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+PNB | 2024-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 SBIN | 2018-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+SBIN | 2018-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 SBIN | 2022-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+SBIN | 2022-03 | cagr_flag | eps_cagr_5yr = ZERO_BASE
 SBIN | 2023-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+SBIN | 2023-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
+SIEMENS | 2016-09 | cagr_flag | eps_cagr_5yr = BOTH_NEGATIVE
 TATACONSUM | 2021-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+TATACONSUM | 2021-03 | cagr_flag | eps_cagr_5yr = ZERO_BASE
 TATAMOTORS | 2019-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+TATAMOTORS | 2019-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 TATAMOTORS | 2020-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+TATAMOTORS | 2020-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 TATAMOTORS | 2021-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+TATAMOTORS | 2021-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 TATAMOTORS | 2022-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+TATAMOTORS | 2022-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 TATAMOTORS | 2024-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+TATAMOTORS | 2024-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
+TATAPOWER | 2018-03 | cagr_flag | eps_cagr_5yr = ZERO_BASE
+TATAPOWER | 2019-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 TATASTEEL | 2018-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+TATASTEEL | 2018-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 TATASTEEL | 2020-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+TATASTEEL | 2020-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 TATASTEEL | 2021-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+TATASTEEL | 2021-03 | cagr_flag | eps_cagr_5yr = ZERO_BASE
 TATASTEEL | 2022-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+TATASTEEL | 2022-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 TATASTEEL | 2024-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+TATASTEEL | 2024-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 TRENT | 2018-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+TRENT | 2018-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 TRENT | 2019-03 | cagr_flag | pat_cagr_5yr = TURNAROUND
+TRENT | 2019-03 | cagr_flag | eps_cagr_5yr = TURNAROUND
 TRENT | 2021-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+TRENT | 2021-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 INDIGO | 2020-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+INDIGO | 2020-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 INDIGO | 2021-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+INDIGO | 2021-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 INDIGO | 2022-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+INDIGO | 2022-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 INDIGO | 2023-03 | cagr_flag | pat_cagr_5yr = DECLINE_TO_LOSS
+INDIGO | 2023-03 | cagr_flag | eps_cagr_5yr = DECLINE_TO_LOSS
 ADANIENSOL | 2024-03 | cagr_flag | revenue_cagr_10yr = ZERO_BASE
 ADANIENSOL | 2024-03 | cagr_flag | pat_cagr_10yr = ZERO_BASE
+ADANIENSOL | 2024-03 | cagr_flag | eps_cagr_10yr = ZERO_BASE
 ADANIPOWER | 2023-03 | cagr_flag | pat_cagr_10yr = TURNAROUND
+ADANIPOWER | 2023-03 | cagr_flag | eps_cagr_10yr = TURNAROUND
 ADANIPOWER | 2024-03 | cagr_flag | pat_cagr_10yr = TURNAROUND
+ADANIPOWER | 2024-03 | cagr_flag | eps_cagr_10yr = TURNAROUND
 GODREJCP | 2024-03 | cagr_flag | pat_cagr_10yr = DECLINE_TO_LOSS
+GODREJCP | 2024-03 | cagr_flag | eps_cagr_10yr = DECLINE_TO_LOSS
 NAUKRI | 2023-03 | cagr_flag | pat_cagr_10yr = DECLINE_TO_LOSS
+NAUKRI | 2023-03 | cagr_flag | eps_cagr_10yr = DECLINE_TO_LOSS
+SIEMENS | 2021-09 | cagr_flag | eps_cagr_10yr = BOTH_NEGATIVE
+TATAPOWER | 2023-03 | cagr_flag | eps_cagr_10yr = ZERO_BASE
+TATAPOWER | 2024-03 | cagr_flag | eps_cagr_10yr = TURNAROUND
 TATASTEEL | 2023-03 | cagr_flag | pat_cagr_10yr = TURNAROUND
+TATASTEEL | 2023-03 | cagr_flag | eps_cagr_10yr = TURNAROUND
 TATASTEEL | 2024-03 | cagr_flag | pat_cagr_10yr = DECLINE_TO_LOSS
+TATASTEEL | 2024-03 | cagr_flag | eps_cagr_10yr = DECLINE_TO_LOSS
 TRENT | 2023-03 | cagr_flag | pat_cagr_10yr = TURNAROUND
+TRENT | 2023-03 | cagr_flag | eps_cagr_10yr = TURNAROUND
 TRENT | 2024-03 | cagr_flag | pat_cagr_10yr = TURNAROUND
+TRENT | 2024-03 | cagr_flag | eps_cagr_10yr = TURNAROUND
 INDIGO | 2023-03 | cagr_flag | pat_cagr_10yr = DECLINE_TO_LOSS
-ADANIPOWER | 2017-03 | implausible_roe | return_on_equity_pct=-205.8 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-ADANIPOWER | 2018-03 | implausible_roe | return_on_equity_pct=-236.6 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-BEL | 2013-03 | implausible_roe | return_on_equity_pct=15183.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-BEL | 2014-03 | implausible_roe | return_on_equity_pct=13600.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-BEL | 2015-03 | implausible_roe | return_on_equity_pct=17100.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-BEL | 2016-03 | implausible_roe | return_on_equity_pct=11141.7 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-BEL | 2017-03 | implausible_roe | return_on_equity_pct=10153.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-BEL | 2018-03 | implausible_roe | return_on_equity_pct=4616.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-BEL | 2019-03 | implausible_roe | return_on_equity_pct=3851.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-BEL | 2020-03 | implausible_roe | return_on_equity_pct=3318.2 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-BEL | 2021-03 | implausible_roe | return_on_equity_pct=3559.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-BEL | 2022-03 | implausible_roe | return_on_equity_pct=3478.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-BEL | 2023-03 | implausible_roe | return_on_equity_pct=3981.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-BEL | 2024-03 | implausible_roe | return_on_equity_pct=4744.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-HAL | 2016-03 | implausible_roe | return_on_equity_pct=1665.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-HAL | 2017-03 | implausible_roe | return_on_equity_pct=1966.9 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-HAL | 2018-03 | implausible_roe | return_on_equity_pct=1528.5 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-HAL | 2019-03 | implausible_roe | return_on_equity_pct=1763.9 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-HAL | 2020-03 | implausible_roe | return_on_equity_pct=2059.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-HAL | 2021-03 | implausible_roe | return_on_equity_pct=2249.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-HAL | 2022-03 | implausible_roe | return_on_equity_pct=3324.2 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-HAL | 2023-03 | implausible_roe | return_on_equity_pct=3283.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-HAL | 2024-03 | implausible_roe | return_on_equity_pct=3816.6 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-LICI | 2019-03 | implausible_roe | return_on_equity_pct=324.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-LICI | 2020-03 | implausible_roe | return_on_equity_pct=270.5 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-LT | 2013-03 | implausible_roe | return_on_equity_pct=395.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-LT | 2014-03 | implausible_roe | return_on_equity_pct=303.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-LT | 2015-03 | implausible_roe | return_on_equity_pct=245.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-LT | 2016-03 | implausible_roe | return_on_equity_pct=216.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-LT | 2017-03 | implausible_roe | return_on_equity_pct=206.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-LT | 2018-03 | implausible_roe | return_on_equity_pct=207.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-LT | 2019-03 | implausible_roe | return_on_equity_pct=208.8 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-LT | 2020-03 | implausible_roe | return_on_equity_pct=201.6 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-PNB | 2013-03 | implausible_roe | return_on_equity_pct=812.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-PNB | 2014-03 | implausible_roe | return_on_equity_pct=393.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-PNB | 2015-03 | implausible_roe | return_on_equity_pct=223.2 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-INDIGO | 2013-03 | implausible_roe | return_on_equity_pct=17886.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-INDIGO | 2014-03 | implausible_roe | return_on_equity_pct=10772.7 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-INDIGO | 2015-03 | implausible_roe | return_on_equity_pct=4939.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-INDIGO | 2016-03 | implausible_roe | return_on_equity_pct=1534.8 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-INDIGO | 2017-03 | implausible_roe | return_on_equity_pct=1692.9 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-INDIGO | 2018-03 | implausible_roe | return_on_equity_pct=2242.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-INDIGO | 2021-03 | implausible_roe | return_on_equity_pct=-1094.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-INDIGO | 2024-03 | implausible_roe | return_on_equity_pct=892.6 is outside a plausible range, likely a very small equity_capital + reserves base in the source data (data source issue)
-BEL | 2013-03 | implausible_roce | roce=1776.7 is outside a plausible range (data source issue)
-BEL | 2014-03 | implausible_roce | roce=2767.9 is outside a plausible range (data source issue)
-BEL | 2015-03 | implausible_roce | roce=3069.7 is outside a plausible range (data source issue)
-BEL | 2016-03 | implausible_roce | roce=3245.9 is outside a plausible range (data source issue)
-BEL | 2017-03 | implausible_roce | roce=3590.9 is outside a plausible range (data source issue)
-BEL | 2018-03 | implausible_roce | roce=2236.7 is outside a plausible range (data source issue)
-BEL | 2019-03 | implausible_roce | roce=2678.1 is outside a plausible range (data source issue)
-BEL | 2020-03 | implausible_roce | roce=2411.1 is outside a plausible range (data source issue)
-BEL | 2021-03 | implausible_roce | roce=2617.6 is outside a plausible range (data source issue)
-BEL | 2022-03 | implausible_roce | roce=2317.3 is outside a plausible range (data source issue)
-BEL | 2023-03 | implausible_roce | roce=3211.4 is outside a plausible range (data source issue)
-BEL | 2024-03 | implausible_roce | roce=3628.3 is outside a plausible range (data source issue)
-COALINDIA | 2017-03 | implausible_roce | roce=228.1 is outside a plausible range (data source issue)
-COALINDIA | 2018-03 | implausible_roce | roce=335.7 is outside a plausible range (data source issue)
-COALINDIA | 2019-03 | implausible_roce | roce=248.1 is outside a plausible range (data source issue)
-HAL | 2016-03 | implausible_roce | roce=1170.3 is outside a plausible range (data source issue)
-HAL | 2017-03 | implausible_roce | roce=1892.6 is outside a plausible range (data source issue)
-HAL | 2018-03 | implausible_roce | roce=1889.5 is outside a plausible range (data source issue)
-HAL | 2019-03 | implausible_roce | roce=2514.2 is outside a plausible range (data source issue)
-HAL | 2020-03 | implausible_roce | roce=2772.9 is outside a plausible range (data source issue)
-HAL | 2021-03 | implausible_roce | roce=2789.3 is outside a plausible range (data source issue)
-HAL | 2022-03 | implausible_roce | roce=2612.1 is outside a plausible range (data source issue)
-HAL | 2023-03 | implausible_roce | roce=2180.8 is outside a plausible range (data source issue)
-HAL | 2024-03 | implausible_roce | roce=2591.0 is outside a plausible range (data source issue)
-HDFCLIFE | 2013-03 | implausible_roce | roce=1009.7 is outside a plausible range (data source issue)
-HDFCLIFE | 2014-03 | implausible_roce | roce=856.8 is outside a plausible range (data source issue)
-HDFCLIFE | 2015-03 | implausible_roce | roce=1034.9 is outside a plausible range (data source issue)
-HDFCLIFE | 2016-03 | implausible_roce | roce=552.4 is outside a plausible range (data source issue)
-HDFCLIFE | 2017-03 | implausible_roce | roce=774.5 is outside a plausible range (data source issue)
-HDFCLIFE | 2018-03 | implausible_roce | roce=661.9 is outside a plausible range (data source issue)
-HDFCLIFE | 2019-03 | implausible_roce | roce=666.3 is outside a plausible range (data source issue)
-HDFCLIFE | 2020-03 | implausible_roce | roce=414.2 is outside a plausible range (data source issue)
-HDFCLIFE | 2021-03 | implausible_roce | roce=760.2 is outside a plausible range (data source issue)
-HDFCLIFE | 2022-03 | implausible_roce | roce=408.9 is outside a plausible range (data source issue)
-HDFCLIFE | 2023-03 | implausible_roce | roce=502.4 is outside a plausible range (data source issue)
-HDFCLIFE | 2024-03 | implausible_roce | roce=646.0 is outside a plausible range (data source issue)
-HEROMOTOCO | 2014-03 | implausible_roce | roce=349.0 is outside a plausible range (data source issue)
-HEROMOTOCO | 2015-03 | implausible_roce | roce=353.6 is outside a plausible range (data source issue)
-HEROMOTOCO | 2016-03 | implausible_roce | roce=260.2 is outside a plausible range (data source issue)
-HEROMOTOCO | 2017-03 | implausible_roce | roce=222.4 is outside a plausible range (data source issue)
-HEROMOTOCO | 2018-03 | implausible_roce | roce=217.6 is outside a plausible range (data source issue)
-HEROMOTOCO | 2019-03 | implausible_roce | roce=210.9 is outside a plausible range (data source issue)
-HINDUNILVR | 2013-03 | implausible_roce | roce=779.7 is outside a plausible range (data source issue)
-HINDUNILVR | 2014-03 | implausible_roce | roce=674.8 is outside a plausible range (data source issue)
-HINDUNILVR | 2015-03 | implausible_roce | roce=644.7 is outside a plausible range (data source issue)
-HINDUNILVR | 2016-03 | implausible_roce | roce=384.0 is outside a plausible range (data source issue)
-HINDUNILVR | 2017-03 | implausible_roce | roce=376.0 is outside a plausible range (data source issue)
-HINDUNILVR | 2018-03 | implausible_roce | roce=378.1 is outside a plausible range (data source issue)
-HINDUNILVR | 2019-03 | implausible_roce | roce=374.9 is outside a plausible range (data source issue)
-HINDUNILVR | 2020-03 | implausible_roce | roce=351.4 is outside a plausible range (data source issue)
-ICICIGI | 2013-03 | implausible_roce | roce=221.5 is outside a plausible range (data source issue)
-ICICIPRULI | 2013-03 | implausible_roce | roce=485.7 is outside a plausible range (data source issue)
-ICICIPRULI | 2014-03 | implausible_roce | roce=464.0 is outside a plausible range (data source issue)
-ICICIPRULI | 2015-03 | implausible_roce | roce=622.2 is outside a plausible range (data source issue)
-ICICIPRULI | 2016-03 | implausible_roce | roce=299.2 is outside a plausible range (data source issue)
-ICICIPRULI | 2017-03 | implausible_roce | roce=561.2 is outside a plausible range (data source issue)
-ICICIPRULI | 2018-03 | implausible_roce | roce=563.1 is outside a plausible range (data source issue)
-ICICIPRULI | 2019-03 | implausible_roce | roce=594.7 is outside a plausible range (data source issue)
-ICICIPRULI | 2020-03 | implausible_roce | roce=295.1 is outside a plausible range (data source issue)
-ICICIPRULI | 2021-03 | implausible_roce | roce=810.1 is outside a plausible range (data source issue)
-ICICIPRULI | 2022-03 | implausible_roce | roce=633.9 is outside a plausible range (data source issue)
-ICICIPRULI | 2023-03 | implausible_roce | roce=461.9 is outside a plausible range (data source issue)
-ICICIPRULI | 2024-03 | implausible_roce | roce=754.0 is outside a plausible range (data source issue)
-LT | 2013-03 | implausible_roce | roce=620.3 is outside a plausible range (data source issue)
-LT | 2014-03 | implausible_roce | roce=734.9 is outside a plausible range (data source issue)
-LT | 2015-03 | implausible_roce | roce=582.0 is outside a plausible range (data source issue)
-LT | 2016-03 | implausible_roce | roce=628.4 is outside a plausible range (data source issue)
-LT | 2017-03 | implausible_roce | roce=453.2 is outside a plausible range (data source issue)
-LT | 2018-03 | implausible_roce | roce=463.4 is outside a plausible range (data source issue)
-LT | 2019-03 | implausible_roce | roce=428.0 is outside a plausible range (data source issue)
-LT | 2020-03 | implausible_roce | roce=349.8 is outside a plausible range (data source issue)
-LT | 2021-03 | implausible_roce | roce=253.7 is outside a plausible range (data source issue)
-INDIGO | 2013-03 | implausible_roce | roce=53649.4 is outside a plausible range (data source issue)
-INDIGO | 2014-03 | implausible_roce | roce=56837.0 is outside a plausible range (data source issue)
-INDIGO | 2015-03 | implausible_roce | roce=38552.6 is outside a plausible range (data source issue)
-INDIGO | 2016-03 | implausible_roce | roce=9076.4 is outside a plausible range (data source issue)
-INDIGO | 2017-03 | implausible_roce | roce=10603.3 is outside a plausible range (data source issue)
-INDIGO | 2018-03 | implausible_roce | roce=12697.4 is outside a plausible range (data source issue)
-INDIGO | 2019-03 | implausible_roce | roce=12851.6 is outside a plausible range (data source issue)
-INDIGO | 2020-03 | implausible_roce | roce=10910.6 is outside a plausible range (data source issue)
-INDIGO | 2021-03 | implausible_roce | roce=1734.6 is outside a plausible range (data source issue)
-INDIGO | 2022-03 | implausible_roce | roce=3067.2 is outside a plausible range (data source issue)
-INDIGO | 2023-03 | implausible_roce | roce=5427.8 is outside a plausible range (data source issue)
-INDIGO | 2024-03 | implausible_roce | roce=4953.5 is outside a plausible range (data source issue)
-ABB | 2024-03 | roce_source_mismatch | computed=36.54 vs source=46.0 (formula discrepancy)
-BAJFINANCE | 2024-03 | roce_source_mismatch | computed=4.17 vs source=11.9 (formula discrepancy)
-BAJAJ-AUTO | 2024-03 | roce_source_mismatch | computed=27.21 vs source=33.5 (formula discrepancy)
-BEL | 2024-03 | roce_source_mismatch | computed=3628.35 vs source=34.6 (formula discrepancy)
-BEL | 2024-03 | roe_source_mismatch | computed=4744.05 vs source=26.3 (formula discrepancy)
-BAJAJHLDNG | 2024-03 | roce_source_mismatch | computed=2.81 vs source=13.1 (formula discrepancy)
-ADANIPOWER | 2024-03 | roce_source_mismatch | computed=18.39 vs source=32.2 (formula discrepancy)
-ADANIPOWER | 2024-03 | roe_source_mismatch | computed=48.28 vs source=57.1 (formula discrepancy)
-BAJAJFINSV | 2024-03 | roce_source_mismatch | computed=11.45 vs source=21.14 (formula discrepancy)
-BAJAJFINSV | 2024-03 | roe_source_mismatch | computed=25.85 vs source=11.72 (formula discrepancy)
-ASIANPAINT | 2024-03 | roce_source_mismatch | computed=31.75 vs source=41.75 (formula discrepancy)
-ADANIGREEN | 2024-03 | roce_source_mismatch | computed=7.25 vs source=96.5 (formula discrepancy)
-ADANIENT | 2024-03 | roe_source_mismatch | computed=8.53 vs source=13.64 (formula discrepancy)
-TRENT | 2024-03 | roe_source_mismatch | computed=36.31 vs source=27.2 (formula discrepancy)
-TCS | 2024-03 | roe_source_mismatch | computed=50.94 vs source=0.52 (data source issue)
-INFY | 2024-03 | roce_source_mismatch | computed=32.91 vs source=40.0 (formula discrepancy)
-IRCTC | 2024-03 | roce_source_mismatch | computed=42.83 vs source=53.8 (formula discrepancy)
-IRCTC | 2024-03 | roe_source_mismatch | computed=34.4 vs source=40.4 (formula discrepancy)
-SBILIFE | 2024-03 | roce_source_mismatch | computed=1.14 vs source=13.2 (formula discrepancy)
-LICI | 2024-03 | roce_source_mismatch | computed=39.05 vs source=63.79 (formula discrepancy)
-LICI | 2024-03 | roe_source_mismatch | computed=49.45 vs source=63.61 (formula discrepancy)
-LT | 2024-03 | roce_source_mismatch | computed=118.53 vs source=17.18 (formula discrepancy)
-LT | 2024-03 | roe_source_mismatch | computed=77.67 vs source=10.49 (formula discrepancy)
-LTIM | 2024-03 | roce_source_mismatch | computed=25.21 vs source=34.1 (formula discrepancy)
-M&M | 2024-03 | roce_source_mismatch | computed=11.54 vs source=26.98 (formula discrepancy)
-MARUTI | 2024-03 | roce_source_mismatch | computed=15.59 vs source=23.67 (formula discrepancy)
-NESTLEIND | 2024-03 | roce_source_mismatch | computed=143.15 vs source=185.43 (formula discrepancy)
-NESTLEIND | 2024-03 | roe_source_mismatch | computed=117.75 vs source=135.61 (formula discrepancy)
-PNB | 2024-03 | roe_source_mismatch | computed=61.32 vs source=8.7 (formula discrepancy)
-PFC | 2024-03 | roce_source_mismatch | computed=3.48 vs source=9.96 (formula discrepancy)
-PFC | 2024-03 | roe_source_mismatch | computed=26.16 vs source=19.49 (formula discrepancy)
-BOSCHLTD | 2024-03 | roce_source_mismatch | computed=13.76 vs source=20.6 (formula discrepancy)
-ICICIPRULI | 2024-03 | roce_source_mismatch | computed=753.98 vs source=8.75 (formula discrepancy)
-BPCL | 2024-03 | roe_source_mismatch | computed=35.51 vs source=41.9 (formula discrepancy)
-CHOLAFIN | 2024-03 | roce_source_mismatch | computed=3.37 vs source=10.4 (formula discrepancy)
-TATASTEEL | 2024-03 | roe_source_mismatch | computed=-5.33 vs source=6.55 (formula discrepancy)
-CIPLA | 2024-03 | roce_source_mismatch | computed=67.6 vs source=22.8 (formula discrepancy)
-COALINDIA | 2024-03 | roce_source_mismatch | computed=98.17 vs source=63.6 (formula discrepancy)
-COALINDIA | 2024-03 | roe_source_mismatch | computed=45.17 vs source=52.0 (formula discrepancy)
-TATAMOTORS | 2024-03 | roe_source_mismatch | computed=37.46 vs source=49.4 (formula discrepancy)
-DRREDDY | 2024-03 | roce_source_mismatch | computed=21.36 vs source=26.5 (formula discrepancy)
-ICICIGI | 2024-03 | roce_source_mismatch | computed=145.23 vs source=22.5 (formula discrepancy)
-EICHERMOT | 2024-03 | roce_source_mismatch | computed=20.21 vs source=31.1 (formula discrepancy)
-GODREJCP | 2024-03 | roce_source_mismatch | computed=17.17 vs source=26.49 (formula discrepancy)
-GODREJCP | 2024-03 | roe_source_mismatch | computed=-4.45 vs source=6.77 (formula discrepancy)
-HAL | 2024-03 | roce_source_mismatch | computed=2590.99 vs source=38.9 (formula discrepancy)
-HAL | 2024-03 | roe_source_mismatch | computed=3816.58 vs source=28.9 (formula discrepancy)
-HDFCLIFE | 2024-03 | roce_source_mismatch | computed=645.95 vs source=6.61 (formula discrepancy)
-HEROMOTOCO | 2024-03 | roce_source_mismatch | computed=173.71 vs source=29.1 (formula discrepancy)
-HINDALCO | 2024-03 | roce_source_mismatch | computed=113.58 vs source=11.3 (formula discrepancy)
-HINDUNILVR | 2024-03 | roce_source_mismatch | computed=87.32 vs source=27.2 (formula discrepancy)
-SHRIRAMFIN | 2024-03 | roce_source_mismatch | computed=4.06 vs source=11.3 (formula discrepancy)
-INDIGO | 2024-03 | roce_source_mismatch | computed=4953.54 vs source=24.5 (formula discrepancy)
-SIEMENS | 2024-09 | roce_source_mismatch | computed=17.74 vs source=25.6 (formula discrepancy)
+INDIGO | 2023-03 | cagr_flag | eps_cagr_10yr = DECLINE_TO_LOSS
+ADANIPOWER | 2017-03 | data source issue | return_on_equity_pct=-205.8 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+ADANIPOWER | 2018-03 | data source issue | return_on_equity_pct=-236.6 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+BEL | 2013-03 | data source issue | return_on_equity_pct=15183.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+BEL | 2014-03 | data source issue | return_on_equity_pct=13600.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+BEL | 2015-03 | data source issue | return_on_equity_pct=17100.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+BEL | 2016-03 | data source issue | return_on_equity_pct=11141.7 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+BEL | 2017-03 | data source issue | return_on_equity_pct=10153.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+BEL | 2018-03 | data source issue | return_on_equity_pct=4616.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+BEL | 2019-03 | data source issue | return_on_equity_pct=3851.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+BEL | 2020-03 | data source issue | return_on_equity_pct=3318.2 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+BEL | 2021-03 | data source issue | return_on_equity_pct=3559.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+BEL | 2022-03 | data source issue | return_on_equity_pct=3478.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+BEL | 2023-03 | data source issue | return_on_equity_pct=3981.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+BEL | 2024-03 | data source issue | return_on_equity_pct=4744.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+HAL | 2016-03 | data source issue | return_on_equity_pct=1665.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+HAL | 2017-03 | data source issue | return_on_equity_pct=1966.9 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+HAL | 2018-03 | data source issue | return_on_equity_pct=1528.5 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+HAL | 2019-03 | data source issue | return_on_equity_pct=1763.9 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+HAL | 2020-03 | data source issue | return_on_equity_pct=2059.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+HAL | 2021-03 | data source issue | return_on_equity_pct=2249.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+HAL | 2022-03 | data source issue | return_on_equity_pct=3324.2 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+HAL | 2023-03 | data source issue | return_on_equity_pct=3283.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+HAL | 2024-03 | data source issue | return_on_equity_pct=3816.6 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+LICI | 2019-03 | data source issue | return_on_equity_pct=324.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+LICI | 2020-03 | data source issue | return_on_equity_pct=270.5 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+LT | 2013-03 | data source issue | return_on_equity_pct=395.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+LT | 2014-03 | data source issue | return_on_equity_pct=303.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+LT | 2015-03 | data source issue | return_on_equity_pct=245.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+LT | 2016-03 | data source issue | return_on_equity_pct=216.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+LT | 2017-03 | data source issue | return_on_equity_pct=206.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+LT | 2018-03 | data source issue | return_on_equity_pct=207.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+LT | 2019-03 | data source issue | return_on_equity_pct=208.8 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+LT | 2020-03 | data source issue | return_on_equity_pct=201.6 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+PNB | 2013-03 | data source issue | return_on_equity_pct=812.3 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+PNB | 2014-03 | data source issue | return_on_equity_pct=393.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+PNB | 2015-03 | data source issue | return_on_equity_pct=223.2 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+INDIGO | 2013-03 | data source issue | return_on_equity_pct=17886.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+INDIGO | 2014-03 | data source issue | return_on_equity_pct=10772.7 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+INDIGO | 2015-03 | data source issue | return_on_equity_pct=4939.4 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+INDIGO | 2016-03 | data source issue | return_on_equity_pct=1534.8 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+INDIGO | 2017-03 | data source issue | return_on_equity_pct=1692.9 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+INDIGO | 2018-03 | data source issue | return_on_equity_pct=2242.0 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+INDIGO | 2021-03 | data source issue | return_on_equity_pct=-1094.1 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+INDIGO | 2024-03 | data source issue | return_on_equity_pct=892.6 is outside a plausible range, likely a very small equity_capital + reserves base in the source data
+BEL | 2013-03 | data source issue | roce=1776.7 is outside a plausible range
+BEL | 2014-03 | data source issue | roce=2767.9 is outside a plausible range
+BEL | 2015-03 | data source issue | roce=3069.7 is outside a plausible range
+BEL | 2016-03 | data source issue | roce=3245.9 is outside a plausible range
+BEL | 2017-03 | data source issue | roce=3590.9 is outside a plausible range
+BEL | 2018-03 | data source issue | roce=2236.7 is outside a plausible range
+BEL | 2019-03 | data source issue | roce=2678.1 is outside a plausible range
+BEL | 2020-03 | data source issue | roce=2411.1 is outside a plausible range
+BEL | 2021-03 | data source issue | roce=2617.6 is outside a plausible range
+BEL | 2022-03 | data source issue | roce=2317.3 is outside a plausible range
+BEL | 2023-03 | data source issue | roce=3211.4 is outside a plausible range
+BEL | 2024-03 | data source issue | roce=3628.3 is outside a plausible range
+COALINDIA | 2017-03 | data source issue | roce=228.1 is outside a plausible range
+COALINDIA | 2018-03 | data source issue | roce=335.7 is outside a plausible range
+COALINDIA | 2019-03 | data source issue | roce=248.1 is outside a plausible range
+HAL | 2016-03 | data source issue | roce=1170.3 is outside a plausible range
+HAL | 2017-03 | data source issue | roce=1892.6 is outside a plausible range
+HAL | 2018-03 | data source issue | roce=1889.5 is outside a plausible range
+HAL | 2019-03 | data source issue | roce=2514.2 is outside a plausible range
+HAL | 2020-03 | data source issue | roce=2772.9 is outside a plausible range
+HAL | 2021-03 | data source issue | roce=2789.3 is outside a plausible range
+HAL | 2022-03 | data source issue | roce=2612.1 is outside a plausible range
+HAL | 2023-03 | data source issue | roce=2180.8 is outside a plausible range
+HAL | 2024-03 | data source issue | roce=2591.0 is outside a plausible range
+HDFCLIFE | 2013-03 | data source issue | roce=1009.7 is outside a plausible range
+HDFCLIFE | 2014-03 | data source issue | roce=856.8 is outside a plausible range
+HDFCLIFE | 2015-03 | data source issue | roce=1034.9 is outside a plausible range
+HDFCLIFE | 2016-03 | data source issue | roce=552.4 is outside a plausible range
+HDFCLIFE | 2017-03 | data source issue | roce=774.5 is outside a plausible range
+HDFCLIFE | 2018-03 | data source issue | roce=661.9 is outside a plausible range
+HDFCLIFE | 2019-03 | data source issue | roce=666.3 is outside a plausible range
+HDFCLIFE | 2020-03 | data source issue | roce=414.2 is outside a plausible range
+HDFCLIFE | 2021-03 | data source issue | roce=760.2 is outside a plausible range
+HDFCLIFE | 2022-03 | data source issue | roce=408.9 is outside a plausible range
+HDFCLIFE | 2023-03 | data source issue | roce=502.4 is outside a plausible range
+HDFCLIFE | 2024-03 | data source issue | roce=646.0 is outside a plausible range
+HEROMOTOCO | 2014-03 | data source issue | roce=349.0 is outside a plausible range
+HEROMOTOCO | 2015-03 | data source issue | roce=353.6 is outside a plausible range
+HEROMOTOCO | 2016-03 | data source issue | roce=260.2 is outside a plausible range
+HEROMOTOCO | 2017-03 | data source issue | roce=222.4 is outside a plausible range
+HEROMOTOCO | 2018-03 | data source issue | roce=217.6 is outside a plausible range
+HEROMOTOCO | 2019-03 | data source issue | roce=210.9 is outside a plausible range
+HINDUNILVR | 2013-03 | data source issue | roce=779.7 is outside a plausible range
+HINDUNILVR | 2014-03 | data source issue | roce=674.8 is outside a plausible range
+HINDUNILVR | 2015-03 | data source issue | roce=644.7 is outside a plausible range
+HINDUNILVR | 2016-03 | data source issue | roce=384.0 is outside a plausible range
+HINDUNILVR | 2017-03 | data source issue | roce=376.0 is outside a plausible range
+HINDUNILVR | 2018-03 | data source issue | roce=378.1 is outside a plausible range
+HINDUNILVR | 2019-03 | data source issue | roce=374.9 is outside a plausible range
+HINDUNILVR | 2020-03 | data source issue | roce=351.4 is outside a plausible range
+ICICIGI | 2013-03 | data source issue | roce=221.5 is outside a plausible range
+ICICIPRULI | 2013-03 | data source issue | roce=485.7 is outside a plausible range
+ICICIPRULI | 2014-03 | data source issue | roce=464.0 is outside a plausible range
+ICICIPRULI | 2015-03 | data source issue | roce=622.2 is outside a plausible range
+ICICIPRULI | 2016-03 | data source issue | roce=299.2 is outside a plausible range
+ICICIPRULI | 2017-03 | data source issue | roce=561.2 is outside a plausible range
+ICICIPRULI | 2018-03 | data source issue | roce=563.1 is outside a plausible range
+ICICIPRULI | 2019-03 | data source issue | roce=594.7 is outside a plausible range
+ICICIPRULI | 2020-03 | data source issue | roce=295.1 is outside a plausible range
+ICICIPRULI | 2021-03 | data source issue | roce=810.1 is outside a plausible range
+ICICIPRULI | 2022-03 | data source issue | roce=633.9 is outside a plausible range
+ICICIPRULI | 2023-03 | data source issue | roce=461.9 is outside a plausible range
+ICICIPRULI | 2024-03 | data source issue | roce=754.0 is outside a plausible range
+LT | 2013-03 | data source issue | roce=620.3 is outside a plausible range
+LT | 2014-03 | data source issue | roce=734.9 is outside a plausible range
+LT | 2015-03 | data source issue | roce=582.0 is outside a plausible range
+LT | 2016-03 | data source issue | roce=628.4 is outside a plausible range
+LT | 2017-03 | data source issue | roce=453.2 is outside a plausible range
+LT | 2018-03 | data source issue | roce=463.4 is outside a plausible range
+LT | 2019-03 | data source issue | roce=428.0 is outside a plausible range
+LT | 2020-03 | data source issue | roce=349.8 is outside a plausible range
+LT | 2021-03 | data source issue | roce=253.7 is outside a plausible range
+INDIGO | 2013-03 | data source issue | roce=53649.4 is outside a plausible range
+INDIGO | 2014-03 | data source issue | roce=56837.0 is outside a plausible range
+INDIGO | 2015-03 | data source issue | roce=38552.6 is outside a plausible range
+INDIGO | 2016-03 | data source issue | roce=9076.4 is outside a plausible range
+INDIGO | 2017-03 | data source issue | roce=10603.3 is outside a plausible range
+INDIGO | 2018-03 | data source issue | roce=12697.4 is outside a plausible range
+INDIGO | 2019-03 | data source issue | roce=12851.6 is outside a plausible range
+INDIGO | 2020-03 | data source issue | roce=10910.6 is outside a plausible range
+INDIGO | 2021-03 | data source issue | roce=1734.6 is outside a plausible range
+INDIGO | 2022-03 | data source issue | roce=3067.2 is outside a plausible range
+INDIGO | 2023-03 | data source issue | roce=5427.8 is outside a plausible range
+INDIGO | 2024-03 | data source issue | roce=4953.5 is outside a plausible range
+ABB | 2024-03 | version difference | ROCE mismatch: computed=36.54 vs source=46.0
+BAJFINANCE | 2024-03 | version difference | ROCE mismatch: computed=4.17 vs source=11.9
+BAJAJ-AUTO | 2024-03 | version difference | ROCE mismatch: computed=27.21 vs source=33.5
+BEL | 2024-03 | formula discrepancy | ROCE mismatch: computed=3628.35 vs source=34.6
+BEL | 2024-03 | formula discrepancy | ROE mismatch: computed=4744.05 vs source=26.3
+BAJAJHLDNG | 2024-03 | version difference | ROCE mismatch: computed=2.81 vs source=13.1
+ADANIPOWER | 2024-03 | version difference | ROCE mismatch: computed=18.39 vs source=32.2
+ADANIPOWER | 2024-03 | version difference | ROE mismatch: computed=48.28 vs source=57.1
+BAJAJFINSV | 2024-03 | version difference | ROCE mismatch: computed=11.45 vs source=21.14
+BAJAJFINSV | 2024-03 | version difference | ROE mismatch: computed=25.85 vs source=11.72
+ASIANPAINT | 2024-03 | version difference | ROCE mismatch: computed=31.75 vs source=41.75
+ADANIGREEN | 2024-03 | formula discrepancy | ROCE mismatch: computed=7.25 vs source=96.5
+ADANIENT | 2024-03 | version difference | ROE mismatch: computed=8.53 vs source=13.64
+TRENT | 2024-03 | version difference | ROE mismatch: computed=36.31 vs source=27.2
+TCS | 2024-03 | data source issue | ROE mismatch: computed=50.94 vs source=0.52
+INFY | 2024-03 | version difference | ROCE mismatch: computed=32.91 vs source=40.0
+IRCTC | 2024-03 | version difference | ROCE mismatch: computed=42.83 vs source=53.8
+IRCTC | 2024-03 | version difference | ROE mismatch: computed=34.4 vs source=40.4
+SBILIFE | 2024-03 | version difference | ROCE mismatch: computed=1.14 vs source=13.2
+LICI | 2024-03 | formula discrepancy | ROCE mismatch: computed=39.05 vs source=63.79
+LICI | 2024-03 | version difference | ROE mismatch: computed=49.45 vs source=63.61
+LT | 2024-03 | formula discrepancy | ROCE mismatch: computed=118.53 vs source=17.18
+LT | 2024-03 | formula discrepancy | ROE mismatch: computed=77.67 vs source=10.49
+LTIM | 2024-03 | version difference | ROCE mismatch: computed=25.21 vs source=34.1
+M&M | 2024-03 | version difference | ROCE mismatch: computed=11.54 vs source=26.98
+MARUTI | 2024-03 | version difference | ROCE mismatch: computed=15.59 vs source=23.67
+NESTLEIND | 2024-03 | formula discrepancy | ROCE mismatch: computed=143.15 vs source=185.43
+NESTLEIND | 2024-03 | version difference | ROE mismatch: computed=117.75 vs source=135.61
+PNB | 2024-03 | formula discrepancy | ROE mismatch: computed=61.32 vs source=8.7
+PFC | 2024-03 | version difference | ROCE mismatch: computed=3.48 vs source=9.96
+PFC | 2024-03 | version difference | ROE mismatch: computed=26.16 vs source=19.49
+BOSCHLTD | 2024-03 | version difference | ROCE mismatch: computed=13.76 vs source=20.6
+ICICIPRULI | 2024-03 | formula discrepancy | ROCE mismatch: computed=753.98 vs source=8.75
+BPCL | 2024-03 | version difference | ROE mismatch: computed=35.51 vs source=41.9
+CHOLAFIN | 2024-03 | version difference | ROCE mismatch: computed=3.37 vs source=10.4
+TATASTEEL | 2024-03 | version difference | ROE mismatch: computed=-5.33 vs source=6.55
+CIPLA | 2024-03 | formula discrepancy | ROCE mismatch: computed=67.6 vs source=22.8
+COALINDIA | 2024-03 | formula discrepancy | ROCE mismatch: computed=98.17 vs source=63.6
+COALINDIA | 2024-03 | version difference | ROE mismatch: computed=45.17 vs source=52.0
+TATAMOTORS | 2024-03 | version difference | ROE mismatch: computed=37.46 vs source=49.4
+DRREDDY | 2024-03 | version difference | ROCE mismatch: computed=21.36 vs source=26.5
+ICICIGI | 2024-03 | formula discrepancy | ROCE mismatch: computed=145.23 vs source=22.5
+EICHERMOT | 2024-03 | version difference | ROCE mismatch: computed=20.21 vs source=31.1
+GODREJCP | 2024-03 | version difference | ROCE mismatch: computed=17.17 vs source=26.49
+GODREJCP | 2024-03 | version difference | ROE mismatch: computed=-4.45 vs source=6.77
+HAL | 2024-03 | formula discrepancy | ROCE mismatch: computed=2590.99 vs source=38.9
+HAL | 2024-03 | formula discrepancy | ROE mismatch: computed=3816.58 vs source=28.9
+HDFCLIFE | 2024-03 | formula discrepancy | ROCE mismatch: computed=645.95 vs source=6.61
+HEROMOTOCO | 2024-03 | formula discrepancy | ROCE mismatch: computed=173.71 vs source=29.1
+HINDALCO | 2024-03 | formula discrepancy | ROCE mismatch: computed=113.58 vs source=11.3
+HINDUNILVR | 2024-03 | formula discrepancy | ROCE mismatch: computed=87.32 vs source=27.2
+SHRIRAMFIN | 2024-03 | version difference | ROCE mismatch: computed=4.06 vs source=11.3
+INDIGO | 2024-03 | formula discrepancy | ROCE mismatch: computed=4953.54 vs source=24.5
+SIEMENS | 2024-09 | version difference | ROCE mismatch: computed=17.74 vs source=25.6

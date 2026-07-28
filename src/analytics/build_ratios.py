@@ -5,7 +5,7 @@ from src.etl.loader import load_all_datasets
 from src.analytics.ratios import (
     net_profit_margin, operating_profit_margin, return_on_equity,
     return_on_capital_employed, return_on_assets, debt_to_equity,
-    is_high_leverage, interest_coverage, icr_warning, asset_turnover
+    is_high_leverage, interest_coverage, icr_label, icr_warning, asset_turnover
 )
 from src.analytics.cagr import compute_cagr_for_window, shift_year
 from src.analytics.cashflow_kpis import (
@@ -79,7 +79,8 @@ def compute_one_row(company_id, year, pnl_row, bs_row, cf_row, is_financial, fac
         row["book_value_per_share"] = book_value_per_share(bs_row["equity_capital"], bs_row["reserves"], face_value)
         row["_roce"] = roce
 
-        if is_high_leverage(de, is_financial):
+        row["high_leverage_flag"] = is_high_leverage(de, is_financial)
+        if row["high_leverage_flag"]:
             log_edge_case(company_id, year, "leverage", f"D/E={round(de, 2)} > 5, flagged high leverage")
     else:
         row["return_on_equity_pct"] = None
@@ -88,9 +89,11 @@ def compute_one_row(company_id, year, pnl_row, bs_row, cf_row, is_financial, fac
         row["total_debt_cr"] = None
         row["book_value_per_share"] = None
         row["_roce"] = None
+        row["high_leverage_flag"] = None
 
     icr = interest_coverage(pnl_row["operating_profit"], pnl_row["other_income"], pnl_row["interest"])
     row["interest_coverage"] = icr
+    row["icr_label"] = icr_label(icr)
 
     if icr is None:
         log_edge_case(company_id, year, "debt_free_substitution", "interest = 0, ICR set to None (Debt Free)")
@@ -137,17 +140,25 @@ def build_capital_allocation(pnl, cf_lookup):
     return pd.DataFrame(rows)
 
 
+def classify_source_mismatch(diff, source_value):
+    if pd.isna(source_value) or abs(source_value) < 5:
+        return "data source issue"
+    if diff > 20:
+        return "formula discrepancy"
+    return "version difference"
+
+
 def check_implausible_ratios(df):
     extreme = df[(df["return_on_equity_pct"] > 200) | (df["return_on_equity_pct"] < -200)]
     for _, row in extreme.iterrows():
-        log_edge_case(row["company_id"], row["year"], "implausible_roe",
+        log_edge_case(row["company_id"], row["year"], "data source issue",
                       f"return_on_equity_pct={round(row['return_on_equity_pct'], 1)} is outside a plausible range, "
-                      f"likely a very small equity_capital + reserves base in the source data (data source issue)")
+                      f"likely a very small equity_capital + reserves base in the source data")
 
     extreme_roce = df[(df["_roce"] > 200) | (df["_roce"] < -200)]
     for _, row in extreme_roce.iterrows():
-        log_edge_case(row["company_id"], row["year"], "implausible_roce",
-                      f"roce={round(row['_roce'], 1)} is outside a plausible range (data source issue)")
+        log_edge_case(row["company_id"], row["year"], "data source issue",
+                      f"roce={round(row['_roce'], 1)} is outside a plausible range")
 
 
 def check_source_anomalies(companies, ratios_df):
@@ -165,23 +176,23 @@ def check_source_anomalies(companies, ratios_df):
         if pd.notna(source_roce) and pd.notna(row["_roce"]):
             diff = abs(row["_roce"] - source_roce)
             if diff > 5:
-                category = "data source issue" if source_roce < 5 else "formula discrepancy"
-                log_edge_case(company_id, row["year"], "roce_source_mismatch",
-                              f"computed={round(row['_roce'], 2)} vs source={source_roce} ({category})")
+                category = classify_source_mismatch(diff, source_roce)
+                log_edge_case(company_id, row["year"], category,
+                              f"ROCE mismatch: computed={round(row['_roce'], 2)} vs source={source_roce}")
 
         if pd.notna(source_roe) and pd.notna(row["return_on_equity_pct"]):
             diff = abs(row["return_on_equity_pct"] - source_roe)
             if diff > 5:
-                category = "data source issue" if source_roe < 5 else "formula discrepancy"
-                log_edge_case(company_id, row["year"], "roe_source_mismatch",
-                              f"computed={round(row['return_on_equity_pct'], 2)} vs source={source_roe} ({category})")
+                category = classify_source_mismatch(diff, source_roe)
+                log_edge_case(company_id, row["year"], category,
+                              f"ROE mismatch: computed={round(row['return_on_equity_pct'], 2)} vs source={source_roe}")
 
 
 def add_cagr_columns(df, pnl_lookup):
     for window in (3, 5, 10):
-        rev_col = []
-        pat_col = []
-        eps_col = []
+        rev_col, rev_flag_col = [], []
+        pat_col, pat_flag_col = [], []
+        eps_col, eps_flag_col = [], []
 
         for _, row in df.iterrows():
             company_id = row["company_id"]
@@ -195,14 +206,24 @@ def add_cagr_columns(df, pnl_lookup):
             pat_col.append(pat_cagr)
             eps_col.append(eps_cagr)
 
+            rev_flag_col.append(rev_flag)
+            pat_flag_col.append(pat_flag)
+            eps_flag_col.append(eps_flag)
+
             if rev_flag and rev_flag != "INSUFFICIENT":
                 log_edge_case(company_id, row["year"], "cagr_flag", f"revenue_cagr_{window}yr = {rev_flag}")
             if pat_flag and pat_flag != "INSUFFICIENT":
                 log_edge_case(company_id, row["year"], "cagr_flag", f"pat_cagr_{window}yr = {pat_flag}")
+            if eps_flag and eps_flag != "INSUFFICIENT":
+                log_edge_case(company_id, row["year"], "cagr_flag", f"eps_cagr_{window}yr = {eps_flag}")
 
         df[f"revenue_cagr_{window}yr"] = rev_col
         df[f"pat_cagr_{window}yr"] = pat_col
         df[f"eps_cagr_{window}yr"] = eps_col
+
+        df[f"revenue_cagr_{window}yr_flag"] = rev_flag_col
+        df[f"pat_cagr_{window}yr_flag"] = pat_flag_col
+        df[f"eps_cagr_{window}yr_flag"] = eps_flag_col
 
     return df
 
@@ -301,17 +322,28 @@ def build_financial_ratios():
     final_columns = [
         "company_id", "year",
         "net_profit_margin_pct", "operating_profit_margin_pct", "return_on_equity_pct",
-        "debt_to_equity", "interest_coverage", "asset_turnover",
+        "debt_to_equity", "high_leverage_flag", "interest_coverage", "icr_label", "asset_turnover",
         "free_cash_flow_cr", "capex_cr", "earnings_per_share", "book_value_per_share",
         "dividend_payout_ratio_pct", "total_debt_cr", "cash_from_operations_cr",
-        "revenue_cagr_5yr", "pat_cagr_5yr", "eps_cagr_5yr", "composite_quality_score"
+        "revenue_cagr_5yr", "revenue_cagr_5yr_flag", "pat_cagr_5yr", "pat_cagr_5yr_flag",
+        "eps_cagr_5yr", "eps_cagr_5yr_flag", "composite_quality_score"
     ]
 
     return df[final_columns], capital_allocation_df
 
 
+def ensure_table_columns(conn, table, df):
+    existing_cols = {
+        row[1] for row in conn.execute(f"PRAGMA table_info({table})").fetchall()
+    }
+    missing = [c for c in df.columns if c not in existing_cols]
+    for col in missing:
+        conn.execute(f'ALTER TABLE {table} ADD COLUMN "{col}" REAL')
+
+
 def save_financial_ratios(df, db_path="db/nifty100.db"):
     conn = sqlite3.connect(db_path)
+    ensure_table_columns(conn, "financial_ratios", df)
     conn.execute("delete from financial_ratios")
     df.to_sql("financial_ratios", conn, if_exists="append", index=False)
     conn.commit()
