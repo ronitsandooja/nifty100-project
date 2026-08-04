@@ -134,6 +134,7 @@ create table financial_ratios (
     net_profit_margin_pct real,
     operating_profit_margin_pct real,
     return_on_equity_pct real,
+    return_on_capital_employed_pct real,
     debt_to_equity real,
     high_leverage_flag integer,
     interest_coverage real,
@@ -201,6 +202,19 @@ create table stock_prices (
     adjusted_close real,
 
     unique(company_id, date),
+
+    foreign key(company_id)
+        references companies(id)
+);
+
+create table peer_percentiles (
+    id integer primary key,
+    company_id text not null,
+    peer_group_name text not null,
+    metric text not null,
+    value real,
+    percentile_rank real,
+    year text,
 
     foreign key(company_id)
         references companies(id)
